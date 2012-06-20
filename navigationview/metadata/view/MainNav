@@ -1,0 +1,49 @@
+{
+    "id": "ExtBox1-ext-gen16080",
+    "type": "navigationview",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|initialView": true,
+        "useTitleForBackButtonText": true,
+        "designer|userClassName": "MainNav"
+    },
+    "customConfigs": [],
+    "designerId": "8fbdeb24-48f0-4623-8aeb-4e33d2eb87b0",
+    "$viewOrder": 3,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen16422",
+            "type": "linkedinstance",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "title": "Step 1"
+            },
+            "customConfigs": [],
+            "iconCls": "icon-linkedinstance",
+            "masterInstanceId": "ExtBox1-ext-gen11540"
+        },
+        {
+            "id": "ExtBox1-ext-gen18812",
+            "type": "navigationbar",
+            "reference": {
+                "name": "navigationBar",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "ui": "light",
+                "designer|userClassName": "MyNavigationBar"
+            },
+            "customConfigs": [],
+            "iconCls": "icon-navbar"
+        }
+    ]
+}

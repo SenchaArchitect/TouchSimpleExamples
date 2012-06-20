@@ -1,0 +1,13 @@
+{
+    "id": "ExtBox1-ext-gen3415",
+    "type": "libraryresource",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {},
+    "customConfigs": [],
+    "designerId": "3dcede1e-3e3d-40f7-a56c-d99c029a6870",
+    "$viewOrder": 0
+}

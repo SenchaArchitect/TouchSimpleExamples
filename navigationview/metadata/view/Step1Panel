@@ -1,0 +1,64 @@
+{
+    "id": "ExtBox1-ext-gen11540",
+    "type": "formpanel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "Step1Panel",
+        "designer|userAlias": "step1"
+    },
+    "customConfigs": [],
+    "designerId": "f2e0179b-4596-47ef-942a-29b67dd5987a",
+    "$viewOrder": 0,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen11813",
+            "type": "fieldset",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "title": "Enter a number",
+                "designer|userClassName": "MyFieldSet"
+            },
+            "customConfigs": [],
+            "cn": [
+                {
+                    "id": "ExtBox1-ext-gen11822",
+                    "type": "numberfield",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "label": null,
+                        "name": "number1",
+                        "designer|userClassName": "MyNumberField"
+                    },
+                    "customConfigs": []
+                }
+            ]
+        },
+        {
+            "id": "ExtBox1-ext-gen12777",
+            "type": "button",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "ui": "forward",
+                "text": "Next",
+                "designer|userClassName": "MyButton"
+            },
+            "customConfigs": []
+        }
+    ]
+}

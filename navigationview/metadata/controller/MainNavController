@@ -1,0 +1,104 @@
+{
+    "id": "ExtBox1-ext-gen17190",
+    "type": "controller",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "MainNavController"
+    },
+    "customConfigs": [],
+    "designerId": "81f48407-d0cc-485d-b3bb-9c9b2f641a43",
+    "$viewOrder": 0,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen17361",
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onStep1SubmitTap",
+                "implHandler": [
+                    "button.up('navigationview').push({",
+                    "    xtype: 'step2',",
+                    "    title: 'Step 2'",
+                    "});"
+                ],
+                "name": "tap",
+                "designer|targetType": "Ext.Button",
+                "designer|controlQuery": "step1 button",
+                "designer|userClassName": "onStep1SubmitTap"
+            },
+            "customConfigs": []
+        },
+        {
+            "id": "ExtBox1-ext-gen17816",
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onStep2ButtonTap",
+                "implHandler": [
+                    "button.up('navigationview').push({",
+                    "    xtype: 'step3',",
+                    "    title: 'Step 3'",
+                    "});"
+                ],
+                "name": "tap",
+                "designer|targetType": "Ext.Button",
+                "designer|controlQuery": "step2 button",
+                "designer|userClassName": "onStep2ButtonTap"
+            },
+            "customConfigs": []
+        },
+        {
+            "id": "ExtBox1-ext-gen18291",
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onStep3ButtonTap",
+                "implHandler": [
+                    "var mainNav = button.up('navigationview'),",
+                    "    num1 = mainNav.child('step1').getValues().number1,",
+                    "    num2 = mainNav.child('step2').getValues().number2,",
+                    "    operation = mainNav.child('step3').getValues().operation,",
+                    "    result;",
+                    "",
+                    "switch (operation) {",
+                    "    case 'add':",
+                    "        result = num1 + num2;",
+                    "        break;    ",
+                    "    case 'subtract':",
+                    "        result = num1 - num2;",
+                    "        break;    ",
+                    "    case 'multiply':",
+                    "        result = num1 * num2;",
+                    "        break;    ",
+                    "    case 'divide':",
+                    "        result = num1 / num2;",
+                    "        break;",
+                    "}",
+                    "",
+                    "Ext.Msg.alert('Your result is: ' + result);"
+                ],
+                "name": "tap",
+                "designer|targetType": "Ext.Button",
+                "designer|controlQuery": "step3 button",
+                "designer|userClassName": "onStep3ButtonTap"
+            },
+            "customConfigs": []
+        }
+    ]
+}

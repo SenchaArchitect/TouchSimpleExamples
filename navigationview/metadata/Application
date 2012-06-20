@@ -1,0 +1,25 @@
+{
+    "id": "ExtBox1-ext-gen11396",
+    "type": "application",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "views": [
+            "Step1Panel",
+            "Step2Panel",
+            "Step3Panel",
+            "MainNav"
+        ],
+        "name": "MyApp",
+        "controllers": [
+            "MainNavController"
+        ]
+    },
+    "customConfigs": [],
+    "designerId": "application",
+    "$viewOrder": 0,
+    "iconCls": "icon-application"
+}
