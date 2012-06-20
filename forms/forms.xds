@@ -1,0 +1,60 @@
+{
+    "name": "forms",
+    "settings": {
+        "urlPrefix": "http://localhost/TouchSimpleExamples/forms/",
+        "spacesToIndent": 4,
+        "codeGenFormat": "Class",
+        "exportPath": "",
+        "senchaIoKey": "",
+        "senchaIoPath": "http://extjs.cachefly.net/designer/IO/",
+        "lineEnding": "LF",
+        "instantiateStore": true,
+        "genTimestamps": false,
+        "cacheBust": false,
+        "saveOnDeploy": false,
+        "appName": "MyApp"
+    },
+    "xdsVersion": "2.0.0",
+    "xdsBuild": 210000000501,
+    "framework": "touch20",
+    "topInstanceFileMap": {
+        "47aef567-0489-4228-879f-064d9bb57229": {
+            "paths": [
+                "metadata/view/Form",
+                "app/view/override/Form.js",
+                "app/view/Form.js"
+            ],
+            "className": "Form"
+        },
+        "a1c2bdb1-5756-4f8c-a431-20b8012c7566": {
+            "paths": [
+                "metadata/store/RankStore",
+                "app/store/override/RankStore.js",
+                "app/store/RankStore.js"
+            ],
+            "className": "RankStore"
+        },
+        "14ed1561-9afd-4c3f-b3c7-b25b5a97ed31": {
+            "paths": [
+                "metadata/model/User",
+                "app/model/override/User.js",
+                "app/model/User.js"
+            ],
+            "className": "User"
+        },
+        "eb2b1758-45bd-4c7a-8ded-629edb01f279": {
+            "paths": [
+                "metadata/model/Ranks",
+                "app/model/override/Ranks.js",
+                "app/model/Ranks.js"
+            ],
+            "className": "Ranks"
+        },
+        "7fd02c76-b64b-4fa9-81d7-2ddc15355368": {
+            "paths": [
+                "metadata/resource/Library"
+            ],
+            "className": "Library"
+        }
+    }
+}

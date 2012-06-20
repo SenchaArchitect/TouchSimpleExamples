@@ -1,0 +1,18 @@
+{
+    "id": "ExtBox1-ext-gen5705",
+    "type": "store",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "data": "[\n                { rank: 'master', title: 'Master'},\n                { rank: 'padawan', title: 'Student'},\n                { rank: 'teacher', title: 'Instructor'},\n                { rank: 'aid', title: 'Assistant'}\n            ]",
+        "model": "Ranks",
+        "storeId": "RankStore",
+        "designer|userClassName": "RankStore"
+    },
+    "customConfigs": [],
+    "designerId": "a1c2bdb1-5756-4f8c-a431-20b8012c7566",
+    "$viewOrder": 0
+}

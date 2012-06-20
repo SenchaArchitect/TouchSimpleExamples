@@ -1,0 +1,227 @@
+{
+    "id": "ExtBox1-ext-gen1920",
+    "type": "datamodel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "User"
+    },
+    "customConfigs": [],
+    "designerId": "14ed1561-9afd-4c3f-b3c7-b25b5a97ed31",
+    "$viewOrder": 0,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen2037",
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "name",
+                "designer|userClassName": "MyField"
+            },
+            "customConfigs": []
+        },
+        {
+            "id": "ExtBox1-ext-gen2048",
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "password",
+                "designer|userClassName": "MyField1"
+            },
+            "customConfigs": []
+        },
+        {
+            "id": "ExtBox1-ext-gen2061",
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "disabled",
+                "designer|userClassName": "MyField2"
+            },
+            "customConfigs": []
+        },
+        {
+            "id": "ExtBox1-ext-gen2076",
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "email",
+                "designer|userClassName": "MyField3"
+            },
+            "customConfigs": []
+        },
+        {
+            "id": "ExtBox1-ext-gen2093",
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "url",
+                "designer|userClassName": "MyField4"
+            },
+            "customConfigs": []
+        },
+        {
+            "id": "ExtBox1-ext-gen3107",
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "date",
+                "designer|userClassName": "MyField5"
+            },
+            "customConfigs": []
+        },
+        {
+            "id": "ExtBox1-ext-gen3128",
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "number",
+                "designer|userClassName": "MyField6"
+            },
+            "customConfigs": []
+        },
+        {
+            "id": "ExtBox1-ext-gen3151",
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "height",
+                "designer|userClassName": "MyField7"
+            },
+            "customConfigs": []
+        },
+        {
+            "id": "ExtBox1-ext-gen3176",
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "enable",
+                "designer|userClassName": "MyField8"
+            },
+            "customConfigs": []
+        },
+        {
+            "id": "ExtBox1-ext-gen3203",
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "cool",
+                "designer|userClassName": "MyField9"
+            },
+            "customConfigs": []
+        },
+        {
+            "id": "ExtBox1-ext-gen4242",
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "color",
+                "designer|userClassName": "MyField10"
+            },
+            "customConfigs": []
+        },
+        {
+            "id": "ExtBox1-ext-gen4273",
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "team",
+                "designer|userClassName": "MyField11"
+            },
+            "customConfigs": []
+        },
+        {
+            "id": "ExtBox1-ext-gen4306",
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "secret",
+                "designer|userClassName": "MyField12"
+            },
+            "customConfigs": []
+        },
+        {
+            "id": "ExtBox1-ext-gen2860",
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "spinner",
+                "designer|userClassName": "MyField15"
+            },
+            "customConfigs": []
+        },
+        {
+            "id": "ExtBox1-ext-gen3372",
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "bio",
+                "designer|userClassName": "MyField16"
+            },
+            "customConfigs": []
+        }
+    ]
+}

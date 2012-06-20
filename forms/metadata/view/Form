@@ -1,0 +1,820 @@
+{
+    "id": "ExtBox1-ext-gen6057",
+    "type": "formpanel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|initialView": true,
+        "itemId": null,
+        "url": "postUser.php",
+        "designer|userClassName": "Form"
+    },
+    "customConfigs": [],
+    "designerId": "47aef567-0489-4228-879f-064d9bb57229",
+    "$viewOrder": 0,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen6207",
+            "type": "fieldset",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "instructions": "Please enter the information above.",
+                "title": "Personal Info",
+                "designer|userClassName": "MyFieldSet"
+            },
+            "customConfigs": [],
+            "cn": [
+                {
+                    "id": "ExtBox1-ext-gen6216",
+                    "type": "textfield",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "label": "Name",
+                        "name": "name",
+                        "designer|userClassName": "MyTextField"
+                    },
+                    "customConfigs": []
+                },
+                {
+                    "id": "ExtBox1-ext-gen6223",
+                    "type": "passwordfield",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "clearIcon": false,
+                        "label": "Password",
+                        "name": "password",
+                        "designer|userClassName": "MyPasswordField"
+                    },
+                    "customConfigs": []
+                },
+                {
+                    "id": "ExtBox1-ext-gen7317",
+                    "type": "textfield",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "disabled": true,
+                        "label": "Disabled",
+                        "name": "disabled",
+                        "designer|userClassName": "MyTextField2"
+                    },
+                    "customConfigs": []
+                },
+                {
+                    "id": "ExtBox1-ext-gen7439",
+                    "type": "emailfield",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "label": "Email",
+                        "name": "email",
+                        "placeHolder": "email@example.com",
+                        "designer|userClassName": "MyEmailField"
+                    },
+                    "customConfigs": []
+                },
+                {
+                    "id": "ExtBox1-ext-gen7901",
+                    "type": "urlfield",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "label": "Url",
+                        "name": "url",
+                        "placeHolder": "http://example.com",
+                        "designer|userClassName": "MyUrlField"
+                    },
+                    "customConfigs": []
+                },
+                {
+                    "id": "ExtBox1-ext-gen8203",
+                    "type": "checkboxfield",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "height": null,
+                        "label": "Cool",
+                        "name": "cool",
+                        "designer|userClassName": "MyCheckbox"
+                    },
+                    "customConfigs": []
+                },
+                {
+                    "id": "ExtBox1-ext-gen8476",
+                    "type": "spinnerfield",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "id": "spinner",
+                        "label": "Spinner",
+                        "name": "spinner",
+                        "designer|userClassName": "MySpinnerField"
+                    },
+                    "customConfigs": []
+                },
+                {
+                    "id": "ExtBox1-ext-gen8751",
+                    "type": "selectfield",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "label": "Rank",
+                        "name": "rank",
+                        "displayField": "title",
+                        "store": "RankStore",
+                        "valueField": "rank",
+                        "designer|userClassName": "MySelectField"
+                    },
+                    "customConfigs": []
+                },
+                {
+                    "id": "ExtBox1-ext-gen9880",
+                    "type": "datepickerfield",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "label": "Field",
+                        "name": "date",
+                        "placeHolder": "mm/dd/yyyy",
+                        "designer|userClassName": "MyDateField"
+                    },
+                    "customConfigs": [],
+                    "cn": [
+                        {
+                            "id": "ExtBox1-ext-gen9889",
+                            "type": "datepicker",
+                            "reference": {
+                                "name": "picker",
+                                "type": "object"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyDatePicker"
+                            },
+                            "customConfigs": [],
+                            "cn": [
+                                {
+                                    "id": "ExtBox1-ext-gen9896",
+                                    "type": "button",
+                                    "reference": {
+                                        "name": "doneButton",
+                                        "type": "object"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "text": "Done",
+                                        "designer|userClassName": "MyButton"
+                                    },
+                                    "customConfigs": []
+                                },
+                                {
+                                    "id": "ExtBox1-ext-gen9903",
+                                    "type": "button",
+                                    "reference": {
+                                        "name": "cancelButton",
+                                        "type": "object"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "text": "Cancel",
+                                        "designer|userClassName": "MyButton1"
+                                    },
+                                    "customConfigs": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "ExtBox1-ext-gen3338",
+                    "type": "hiddenfield",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "name": "hidden",
+                        "designer|userClassName": "MyHiddenField"
+                    },
+                    "customConfigs": []
+                },
+                {
+                    "id": "ExtBox1-ext-gen10356",
+                    "type": "textareafield",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "label": "Bio",
+                        "name": "bio",
+                        "maxLength": 60,
+                        "maxRows": 10,
+                        "designer|userClassName": "MyTextArea"
+                    },
+                    "customConfigs": []
+                },
+                {
+                    "id": "ExtBox1-ext-gen10488",
+                    "type": "sliderfield",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "label": "Height",
+                        "name": "height",
+                        "designer|userClassName": "MySliderField"
+                    },
+                    "customConfigs": []
+                },
+                {
+                    "id": "ExtBox1-ext-gen10621",
+                    "type": "togglefield",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "label": "Security Mode",
+                        "name": "enable",
+                        "designer|userClassName": "MyToggleField"
+                    },
+                    "customConfigs": []
+                },
+                {
+                    "id": "ExtBox1-ext-gen10755",
+                    "type": "radiofield",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "label": "Red Team",
+                        "name": "team",
+                        "value": "redteam",
+                        "designer|userClassName": "MyRadioButton2"
+                    },
+                    "customConfigs": []
+                },
+                {
+                    "id": "ExtBox1-ext-gen10890",
+                    "type": "radiofield",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "label": "Blue Team",
+                        "name": "team",
+                        "value": "blueteam",
+                        "designer|userClassName": "MyRadioButton3"
+                    },
+                    "customConfigs": []
+                },
+                {
+                    "id": "ExtBox1-ext-gen1732",
+                    "type": "object",
+                    "reference": {
+                        "name": "defaults",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "implHandler": [
+                            "{required: true, labelAlign: 'left', labelWidth: '40%'}"
+                        ],
+                        "designer|displayName": "defaults",
+                        "designer|userClassName": "defaults"
+                    },
+                    "customConfigs": []
+                }
+            ]
+        },
+        {
+            "id": "ExtBox1-ext-gen11742",
+            "type": "fieldset",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "title": "Favorite color",
+                "designer|userClassName": "MyFieldSet1"
+            },
+            "customConfigs": [],
+            "cn": [
+                {
+                    "id": "ExtBox1-ext-gen11751",
+                    "type": "radiofield",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "label": "Red",
+                        "name": "color",
+                        "value": "red",
+                        "designer|userClassName": "MyRadioButton"
+                    },
+                    "customConfigs": []
+                },
+                {
+                    "id": "ExtBox1-ext-gen11758",
+                    "type": "radiofield",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "label": "Green",
+                        "name": "color",
+                        "value": "green",
+                        "checked": true,
+                        "designer|userClassName": "MyRadioButton1"
+                    },
+                    "customConfigs": []
+                }
+            ]
+        },
+        {
+            "id": "ExtBox1-ext-gen12108",
+            "type": "fieldset",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "title": "HTML5",
+                "designer|userClassName": "MyFieldSet2"
+            },
+            "customConfigs": [],
+            "cn": [
+                {
+                    "id": "ExtBox1-ext-gen12117",
+                    "type": "numberfield",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "label": "Field",
+                        "name": "number",
+                        "designer|userClassName": "MyNumberField"
+                    },
+                    "customConfigs": []
+                },
+                {
+                    "id": "ExtBox1-ext-gen12124",
+                    "type": "emailfield",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "label": "Field",
+                        "name": "email2",
+                        "placeHolder": "email@example.com",
+                        "designer|userClassName": "MyEmailField1"
+                    },
+                    "customConfigs": []
+                },
+                {
+                    "id": "ExtBox1-ext-gen13639",
+                    "type": "urlfield",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "label": "Field",
+                        "name": "url2",
+                        "placeHolder": "http://example.com",
+                        "designer|userClassName": "MyUrlField1"
+                    },
+                    "customConfigs": []
+                }
+            ]
+        },
+        {
+            "id": "ExtBox1-ext-gen15789",
+            "type": "fieldset",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "title": "Single Select",
+                "designer|userClassName": "MyFieldSet3"
+            },
+            "customConfigs": [],
+            "cn": [
+                {
+                    "id": "ExtBox1-ext-gen15798",
+                    "type": "selectfield",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "label": null,
+                        "name": "options",
+                        "options": "[\n                                {text: 'This is just a big select with text that is overflowing', value: '1'},\n                                {text: 'Another item', value: '2'}\n                            ]",
+                        "designer|userClassName": "MySelectField1"
+                    },
+                    "customConfigs": []
+                }
+            ]
+        },
+        {
+            "id": "ExtBox1-ext-gen16928",
+            "type": "fieldset",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "title": "Single Text",
+                "designer|userClassName": "MyFieldSet3"
+            },
+            "customConfigs": [],
+            "cn": [
+                {
+                    "id": "ExtBox1-ext-gen16931",
+                    "type": "textfield",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "label": null,
+                        "name": "single_text",
+                        "designer|userClassName": "MyTextField7"
+                    },
+                    "customConfigs": []
+                }
+            ]
+        },
+        {
+            "id": "ExtBox1-ext-gen16713",
+            "type": "fieldset",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "title": "Single Toggle",
+                "designer|userClassName": "MyFieldSet3"
+            },
+            "customConfigs": [],
+            "cn": [
+                {
+                    "id": "ExtBox1-ext-gen16716",
+                    "type": "togglefield",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "label": null,
+                        "value": 1,
+                        "designer|userClassName": "MyToggleField1"
+                    },
+                    "customConfigs": []
+                }
+            ]
+        },
+        {
+            "id": "ExtBox1-ext-gen16500",
+            "type": "fieldset",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "title": "Single Slider",
+                "designer|userClassName": "MyFieldSet3"
+            },
+            "customConfigs": [],
+            "cn": [
+                {
+                    "id": "ExtBox1-ext-gen16503",
+                    "type": "sliderfield",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "label": null,
+                        "name": "single_slider",
+                        "value": [
+                            60
+                        ],
+                        "designer|userClassName": "MySliderField1"
+                    },
+                    "customConfigs": []
+                }
+            ]
+        },
+        {
+            "id": "ExtBox1-ext-gen19426",
+            "type": "fieldset",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "title": "Multiple Slider Thumbs",
+                "designer|userClassName": "MyFieldSet3"
+            },
+            "customConfigs": [],
+            "cn": [
+                {
+                    "id": "ExtBox1-ext-gen19429",
+                    "type": "sliderfield",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "label": null,
+                        "name": "multiple_slider",
+                        "value": [
+                            40,
+                            90
+                        ],
+                        "designer|userClassName": "MySliderField1"
+                    },
+                    "customConfigs": []
+                }
+            ]
+        },
+        {
+            "id": "ExtBox1-ext-gen19952",
+            "type": "toolbar",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "docked": "bottom",
+                "designer|userClassName": "MyToolbar"
+            },
+            "customConfigs": [],
+            "cn": [
+                {
+                    "id": "ExtBox1-ext-gen20239",
+                    "type": "button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "itemId": "loadModelBtn",
+                        "ui": "round",
+                        "text": "Load Model",
+                        "designer|userClassName": "MyButton2"
+                    },
+                    "customConfigs": [],
+                    "cn": [
+                        {
+                            "id": "ExtBox1-ext-gen21844",
+                            "type": "basiceventbinding",
+                            "reference": {
+                                "name": "listeners",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fn": "onLoadModelBtnTap",
+                                "implHandler": [
+                                    "if (!Info.user) {",
+                                    "    var date = new Date();",
+                                    "    date.setMonth(4);",
+                                    "    date.setYear(1989);",
+                                    "    date.setDate(1);",
+                                    "",
+                                    "    Info.user = Ext.ModelMgr.create({",
+                                    "        'name': 'Akura',",
+                                    "        'password': 'secret',",
+                                    "        'email': 'saru@sencha.com',",
+                                    "        'disabled': 'disabled',",
+                                    "        'url': 'http://sencha.com',",
+                                    "        'single_slider': 10,",
+                                    "        'multiple_slider': [20, 40],",
+                                    "        'number': 20,",
+                                    "        'height': 20,",
+                                    "        'spinner': 5,",
+                                    "        'enable': 1,",
+                                    "        'cool': true,",
+                                    "        'date': date,",
+                                    "        'team': 'redteam',",
+                                    "        'color': 'blue',",
+                                    "        'rank': 'padawan',",
+                                    "        'secret': true,",
+                                    "        'bio': 'Learned the hard way !'",
+                                    "    }, 'Info.model.User');",
+                                    "}",
+                                    "",
+                                    "this.setRecord(Info.user);"
+                                ],
+                                "name": "tap",
+                                "designer|userClassName": "onLoadModelBtnTap"
+                            },
+                            "customConfigs": []
+                        }
+                    ]
+                },
+                {
+                    "id": "ExtBox1-ext-gen20442",
+                    "type": "spacer",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MySpacer"
+                    },
+                    "customConfigs": []
+                },
+                {
+                    "id": "ExtBox1-ext-gen20567",
+                    "type": "button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "itemId": "resetBtn",
+                        "text": "Reset",
+                        "designer|userClassName": "MyButton3"
+                    },
+                    "customConfigs": [],
+                    "cn": [
+                        {
+                            "id": "ExtBox1-ext-gen22642",
+                            "type": "basiceventbinding",
+                            "reference": {
+                                "name": "listeners",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fn": "onResetBtnTap",
+                                "implHandler": [
+                                    "        this.reset();"
+                                ],
+                                "name": "tap",
+                                "designer|userClassName": "onResetBtnTap"
+                            },
+                            "customConfigs": []
+                        }
+                    ]
+                },
+                {
+                    "id": "ExtBox1-ext-gen20724",
+                    "type": "button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "itemId": "saveBtn",
+                        "ui": "confirm",
+                        "text": "Save",
+                        "designer|userClassName": "MyButton4"
+                    },
+                    "customConfigs": [],
+                    "cn": [
+                        {
+                            "id": "ExtBox1-ext-gen23122",
+                            "type": "basiceventbinding",
+                            "reference": {
+                                "name": "listeners",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fn": "onSaveBtnTap",
+                                "implHandler": [
+                                    "if (Info.user) {",
+                                    "    this.updateRecord(Info.user, true);",
+                                    "}",
+                                    "this.submit({",
+                                    "    waitMsg: {",
+                                    "        message: 'Submitting',",
+                                    "        cls: 'demos-loading'",
+                                    "    }",
+                                    "});"
+                                ],
+                                "name": "tap",
+                                "designer|userClassName": "onSaveBtnTap"
+                            },
+                            "customConfigs": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ExtBox1-ext-gen24988",
+            "type": "basiceventbinding",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onMyformpanelSubmit",
+                "implHandler": [
+                    "        console.log('success', Ext.toArray(arguments));"
+                ],
+                "name": "submit",
+                "designer|userClassName": "onMyformpanelSubmit"
+            },
+            "customConfigs": []
+        },
+        {
+            "id": "ExtBox1-ext-gen25824",
+            "type": "basiceventbinding",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onMyformpanelException",
+                "implHandler": [
+                    "        console.log('failure', Ext.toArray(arguments));"
+                ],
+                "name": "exception",
+                "designer|userClassName": "onMyformpanelException"
+            },
+            "customConfigs": []
+        }
+    ]
+}
