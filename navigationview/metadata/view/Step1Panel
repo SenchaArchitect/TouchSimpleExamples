@@ -1,5 +1,4 @@
 {
-    "id": "ExtBox1-ext-gen11540",
     "type": "formpanel",
     "reference": {
         "name": "items",
@@ -10,12 +9,10 @@
         "designer|userClassName": "Step1Panel",
         "designer|userAlias": "step1"
     },
-    "customConfigs": [],
+    "id": "ExtBox1-ext-gen11540",
     "designerId": "f2e0179b-4596-47ef-942a-29b67dd5987a",
-    "$viewOrder": 0,
     "cn": [
         {
-            "id": "ExtBox1-ext-gen11813",
             "type": "fieldset",
             "reference": {
                 "name": "items",
@@ -23,13 +20,12 @@
             },
             "codeClass": null,
             "userConfig": {
-                "title": "Enter a number",
-                "designer|userClassName": "MyFieldSet"
+                "designer|userClassName": "MyFieldSet",
+                "title": "Enter a number"
             },
-            "customConfigs": [],
+            "designerId": "67baedef-6a86-4065-add5-84c8995eebbf",
             "cn": [
                 {
-                    "id": "ExtBox1-ext-gen11822",
                     "type": "numberfield",
                     "reference": {
                         "name": "items",
@@ -37,16 +33,15 @@
                     },
                     "codeClass": null,
                     "userConfig": {
+                        "designer|userClassName": "MyNumberField",
                         "label": null,
-                        "name": "number1",
-                        "designer|userClassName": "MyNumberField"
+                        "name": "number1"
                     },
-                    "customConfigs": []
+                    "designerId": "1a2752dc-7fe8-408c-8bd7-4bd3214b190c"
                 }
             ]
         },
         {
-            "id": "ExtBox1-ext-gen12777",
             "type": "button",
             "reference": {
                 "name": "items",
@@ -54,11 +49,11 @@
             },
             "codeClass": null,
             "userConfig": {
+                "designer|userClassName": "MyButton",
                 "ui": "forward",
-                "text": "Next",
-                "designer|userClassName": "MyButton"
+                "text": "Next"
             },
-            "customConfigs": []
+            "designerId": "f2e1577e-cc81-4099-9744-d72a190e3cbe"
         }
     ]
 }

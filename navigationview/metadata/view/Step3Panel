@@ -1,5 +1,4 @@
 {
-    "id": "ExtBox1-ext-gen13640",
     "type": "formpanel",
     "reference": {
         "name": "items",
@@ -10,12 +9,10 @@
         "designer|userClassName": "Step3Panel",
         "designer|userAlias": "step3"
     },
-    "customConfigs": [],
+    "id": "ExtBox1-ext-gen13640",
     "designerId": "59837de6-d1e1-4301-abd7-e5769a45fd27",
-    "$viewOrder": 2,
     "cn": [
         {
-            "id": "ExtBox1-ext-gen13644",
             "type": "fieldset",
             "reference": {
                 "name": "items",
@@ -23,13 +20,12 @@
             },
             "codeClass": null,
             "userConfig": {
-                "title": "Choose an operation",
-                "designer|userClassName": "MyFieldSet"
+                "designer|userClassName": "MyFieldSet",
+                "title": "Choose an operation"
             },
-            "customConfigs": [],
+            "designerId": "b58b2f89-d6a4-42de-8122-1b7abc0160c4",
             "cn": [
                 {
-                    "id": "ExtBox1-ext-gen14392",
                     "type": "radiofield",
                     "reference": {
                         "name": "items",
@@ -37,16 +33,15 @@
                     },
                     "codeClass": null,
                     "userConfig": {
+                        "designer|userClassName": "MyRadioButton",
                         "label": "Add",
                         "name": "operation",
                         "value": "add",
-                        "checked": true,
-                        "designer|userClassName": "MyRadioButton"
+                        "checked": true
                     },
-                    "customConfigs": []
+                    "designerId": "e61a6df2-634d-4464-8c06-6285d493350c"
                 },
                 {
-                    "id": "ExtBox1-ext-gen14527",
                     "type": "radiofield",
                     "reference": {
                         "name": "items",
@@ -54,15 +49,14 @@
                     },
                     "codeClass": null,
                     "userConfig": {
+                        "designer|userClassName": "MyRadioButton1",
                         "label": "Subtract",
                         "name": "operation",
-                        "value": "subtract",
-                        "designer|userClassName": "MyRadioButton1"
+                        "value": "subtract"
                     },
-                    "customConfigs": []
+                    "designerId": "8284a14c-d975-49eb-a07c-d49615ecd92f"
                 },
                 {
-                    "id": "ExtBox1-ext-gen14664",
                     "type": "radiofield",
                     "reference": {
                         "name": "items",
@@ -70,15 +64,14 @@
                     },
                     "codeClass": null,
                     "userConfig": {
+                        "designer|userClassName": "MyRadioButton2",
                         "label": "Multiply",
                         "name": "operation",
-                        "value": "multiply",
-                        "designer|userClassName": "MyRadioButton2"
+                        "value": "multiply"
                     },
-                    "customConfigs": []
+                    "designerId": "334135b9-d568-4ff5-97ad-3af412df1cef"
                 },
                 {
-                    "id": "ExtBox1-ext-gen14803",
                     "type": "radiofield",
                     "reference": {
                         "name": "items",
@@ -86,17 +79,16 @@
                     },
                     "codeClass": null,
                     "userConfig": {
+                        "designer|userClassName": "MyRadioButton3",
                         "label": "Divide",
                         "name": "operation",
-                        "value": "divide",
-                        "designer|userClassName": "MyRadioButton3"
+                        "value": "divide"
                     },
-                    "customConfigs": []
+                    "designerId": "c367e929-b517-4b82-a930-3f78e10667c4"
                 }
             ]
         },
         {
-            "id": "ExtBox1-ext-gen13655",
             "type": "button",
             "reference": {
                 "name": "items",
@@ -104,11 +96,11 @@
             },
             "codeClass": null,
             "userConfig": {
+                "designer|userClassName": "MyButton",
                 "ui": "confirm",
-                "text": "Calculate!",
-                "designer|userClassName": "MyButton"
+                "text": "Calculate!"
             },
-            "customConfigs": []
+            "designerId": "5577410c-3796-43fe-9f3b-e0523e13025e"
         }
     ]
 }

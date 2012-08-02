@@ -1,5 +1,4 @@
 {
-    "id": "ExtBox1-ext-gen11396",
     "type": "application",
     "reference": {
         "name": "items",
@@ -18,8 +17,6 @@
             "MainNavController"
         ]
     },
-    "customConfigs": [],
-    "designerId": "application",
-    "$viewOrder": 0,
-    "iconCls": "icon-application"
+    "id": "ExtBox1-ext-gen11396",
+    "designerId": "application"
 }

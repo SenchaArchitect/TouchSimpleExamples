@@ -1,5 +1,4 @@
 {
-    "id": "ExtBox1-ext-gen17190",
     "type": "controller",
     "reference": {
         "name": "items",
@@ -9,12 +8,10 @@
     "userConfig": {
         "designer|userClassName": "MainNavController"
     },
-    "customConfigs": [],
+    "id": "ExtBox1-ext-gen17190",
     "designerId": "81f48407-d0cc-485d-b3bb-9c9b2f641a43",
-    "$viewOrder": 0,
     "cn": [
         {
-            "id": "ExtBox1-ext-gen17361",
             "type": "controlleraction",
             "reference": {
                 "name": "listeners",
@@ -22,6 +19,7 @@
             },
             "codeClass": null,
             "userConfig": {
+                "designer|userClassName": "onStep1SubmitTap",
                 "fn": "onStep1SubmitTap",
                 "implHandler": [
                     "button.up('navigationview').push({",
@@ -31,13 +29,11 @@
                 ],
                 "name": "tap",
                 "designer|targetType": "Ext.Button",
-                "designer|controlQuery": "step1 button",
-                "designer|userClassName": "onStep1SubmitTap"
+                "designer|controlQuery": "step1 button"
             },
-            "customConfigs": []
+            "designerId": "40b17432-dc58-48a1-980c-ecb740fc51be"
         },
         {
-            "id": "ExtBox1-ext-gen17816",
             "type": "controlleraction",
             "reference": {
                 "name": "listeners",
@@ -45,6 +41,7 @@
             },
             "codeClass": null,
             "userConfig": {
+                "designer|userClassName": "onStep2ButtonTap",
                 "fn": "onStep2ButtonTap",
                 "implHandler": [
                     "button.up('navigationview').push({",
@@ -54,13 +51,11 @@
                 ],
                 "name": "tap",
                 "designer|targetType": "Ext.Button",
-                "designer|controlQuery": "step2 button",
-                "designer|userClassName": "onStep2ButtonTap"
+                "designer|controlQuery": "step2 button"
             },
-            "customConfigs": []
+            "designerId": "81a2195b-a80e-4001-b96b-9f1064054482"
         },
         {
-            "id": "ExtBox1-ext-gen18291",
             "type": "controlleraction",
             "reference": {
                 "name": "listeners",
@@ -68,6 +63,7 @@
             },
             "codeClass": null,
             "userConfig": {
+                "designer|userClassName": "onStep3ButtonTap",
                 "fn": "onStep3ButtonTap",
                 "implHandler": [
                     "var mainNav = button.up('navigationview'),",
@@ -95,10 +91,9 @@
                 ],
                 "name": "tap",
                 "designer|targetType": "Ext.Button",
-                "designer|controlQuery": "step3 button",
-                "designer|userClassName": "onStep3ButtonTap"
+                "designer|controlQuery": "step3 button"
             },
-            "customConfigs": []
+            "designerId": "d1039a6b-1e53-41f7-a49e-6e48ce6e47bc"
         }
     ]
 }

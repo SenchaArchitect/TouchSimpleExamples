@@ -3,19 +3,21 @@
     "settings": {
         "urlPrefix": "http://localhost/TouchSimpleExamples/navigationview/",
         "spacesToIndent": 4,
-        "codeGenFormat": "Class",
         "exportPath": "",
-        "senchaIoKey": "",
-        "senchaIoPath": "http://extjs.cachefly.net/designer/IO/",
         "lineEnding": "LF",
-        "instantiateStore": true,
         "genTimestamps": false,
         "cacheBust": false,
+        "codeGenFormat": "Class",
+        "senchaIoKey": "",
+        "senchaIoPath": "http://extjs.cachefly.net/designer/IO/",
+        "instantiateStore": true,
         "saveOnDeploy": false,
         "appName": "MyApp"
     },
     "xdsVersion": "2.0.0",
-    "xdsBuild": 210000000501,
+    "xdsBuild": 557,
+    "schemaVersion": 1,
+    "upgradeVersion": 210000000495,
     "framework": "touch20",
     "topInstanceFileMap": {
         "f2e0179b-4596-47ef-942a-29b67dd5987a": {
@@ -63,12 +65,25 @@
                 "metadata/resource/Library"
             ],
             "className": "Library"
-        },
-        "f89b07c6-5023-4859-9707-55798bc79f1c": {
-            "paths": [
-                "metadata/resource/GoogleMapsAPI"
-            ],
-            "className": "GoogleMapsAPI"
         }
+    },
+    "viewOrderMap": {
+        "view": [
+            "f2e0179b-4596-47ef-942a-29b67dd5987a",
+            "8fbdeb24-48f0-4623-8aeb-4e33d2eb87b0",
+            "2f8f8011-b4fc-43f8-8f35-2318b3dd02bf",
+            "59837de6-d1e1-4301-abd7-e5769a45fd27"
+        ],
+        "store": [],
+        "controller": [
+            "81f48407-d0cc-485d-b3bb-9c9b2f641a43"
+        ],
+        "model": [],
+        "resource": [
+            "3dcede1e-3e3d-40f7-a56c-d99c029a6870"
+        ],
+        "app": [
+            "application"
+        ]
     }
 }
