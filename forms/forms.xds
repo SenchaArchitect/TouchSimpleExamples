@@ -1,21 +1,23 @@
 {
     "name": "forms",
     "settings": {
-        "urlPrefix": "http://localhost/TouchSimpleExamples/forms/",
+        "urlPrefix": "http://localhost/",
         "spacesToIndent": 4,
-        "codeGenFormat": "Class",
         "exportPath": "",
-        "senchaIoKey": "",
-        "senchaIoPath": "http://extjs.cachefly.net/designer/IO/",
         "lineEnding": "LF",
-        "instantiateStore": true,
         "genTimestamps": false,
         "cacheBust": false,
+        "codeGenFormat": "Class",
+        "senchaIoKey": "",
+        "senchaIoPath": "http://extjs.cachefly.net/designer/IO/",
+        "instantiateStore": true,
         "saveOnDeploy": false,
         "appName": "MyApp"
     },
     "xdsVersion": "2.0.0",
-    "xdsBuild": 210000000501,
+    "xdsBuild": 557,
+    "schemaVersion": 1,
+    "upgradeVersion": 210000000495,
     "framework": "touch20",
     "topInstanceFileMap": {
         "47aef567-0489-4228-879f-064d9bb57229": {
@@ -50,11 +52,30 @@
             ],
             "className": "Ranks"
         },
-        "7fd02c76-b64b-4fa9-81d7-2ddc15355368": {
+        "8a363e59-b2b9-4953-b1c7-996efe322b4d": {
             "paths": [
                 "metadata/resource/Library"
             ],
             "className": "Library"
         }
+    },
+    "viewOrderMap": {
+        "view": [
+            "47aef567-0489-4228-879f-064d9bb57229"
+        ],
+        "store": [
+            "a1c2bdb1-5756-4f8c-a431-20b8012c7566"
+        ],
+        "controller": [],
+        "model": [
+            "14ed1561-9afd-4c3f-b3c7-b25b5a97ed31",
+            "eb2b1758-45bd-4c7a-8ded-629edb01f279"
+        ],
+        "resource": [
+            "8a363e59-b2b9-4953-b1c7-996efe322b4d"
+        ],
+        "app": [
+            "application"
+        ]
     }
 }
