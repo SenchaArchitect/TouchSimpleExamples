@@ -1,0 +1,73 @@
+{
+    "type": "picker",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "NumbersPicker",
+        "designer|userAlias": "numbersPicker",
+        "useTitles": true
+    },
+    "id": "ExtBox1-ext-gen19322",
+    "designerId": "fbc194ea-09e6-4d07-afef-da0731ce4c57",
+    "cn": [
+        {
+            "type": "button",
+            "reference": {
+                "name": "doneButton",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyButton6",
+                "text": "Done"
+            },
+            "designerId": "016ca936-94b4-4d8d-b196-fa732c9d43cb"
+        },
+        {
+            "type": "button",
+            "reference": {
+                "name": "cancelButton",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyButton7",
+                "text": "Cancel"
+            },
+            "designerId": "508d0a65-fb9b-49a1-b074-72fd91ee4af4"
+        },
+        {
+            "type": "pickerslot",
+            "reference": {
+                "name": "slots",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyPickerSlot",
+                "data": "[{\"text\":\"One\",\"value\":1},{\"text\":\"Two\",\"value\":2},{\"text\":\"Three\",\"value\":3}]",
+                "name": "number1",
+                "title": "Number 1"
+            },
+            "designerId": "1308a42d-09d4-45ac-ba75-636b971b162e"
+        },
+        {
+            "type": "pickerslot",
+            "reference": {
+                "name": "slots",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyPickerSlot1",
+                "data": "[{\"text\":\"One\",\"value\":1},{\"text\":\"Two\",\"value\":2},{\"text\":\"Three\",\"value\":3}]",
+                "name": "number2",
+                "title": "Number 2"
+            },
+            "designerId": "73f1841a-57b4-47f8-aa85-344511d2ea73"
+        }
+    ]
+}

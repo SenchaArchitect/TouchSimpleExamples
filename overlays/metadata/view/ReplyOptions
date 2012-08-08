@@ -1,0 +1,76 @@
+{
+    "type": "actionsheet",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "ReplyOptions",
+        "designer|userAlias": "replyOptions"
+    },
+    "id": "ExtBox1-ext-gen15607",
+    "designerId": "2bdc4a32-bcda-47fd-95a9-07446a0d434b",
+    "cn": [
+        {
+            "type": "button",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyButton3",
+                "text": "Reply"
+            },
+            "designerId": "3db2ff6e-72ca-48bc-b93e-5c8ffe5974c1"
+        },
+        {
+            "type": "button",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyButton4",
+                "text": "Reply All"
+            },
+            "designerId": "dd7ccb82-56f1-4db0-9cc2-0e0968edee2c"
+        },
+        {
+            "type": "button",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyButton5",
+                "itemId": "mybutton5",
+                "ui": "decline",
+                "text": "Cancel"
+            },
+            "designerId": "d961ddfb-254a-44d7-8463-bcdba7428b4d",
+            "cn": [
+                {
+                    "type": "basiceventbinding",
+                    "reference": {
+                        "name": "listeners",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "onMybutton5Tap",
+                        "fn": "onMybutton5Tap",
+                        "implHandler": [
+                            "this.hide();"
+                        ],
+                        "name": "tap"
+                    },
+                    "designerId": "a5e3282e-1fe5-4ff1-8df6-0c3fae010bd0"
+                }
+            ]
+        }
+    ]
+}

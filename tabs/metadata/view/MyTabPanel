@@ -1,0 +1,80 @@
+{
+    "type": "tabpanel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "MyTabPanel",
+        "designer|initialView": true
+    },
+    "id": "ExtBox1-ext-gen1920",
+    "designerId": "ddedca87-ade6-4cfb-b9b5-9b14fb6c9b09",
+    "cn": [
+        {
+            "type": "tabbar",
+            "reference": {
+                "name": "tabBar",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyTabBar",
+                "docked": "top"
+            },
+            "designerId": "893a58f3-5340-4264-8a07-c6762f02db2f"
+        },
+        {
+            "type": "container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "title": "Tab 1",
+                "designer|userClassName": "MyContainer",
+                "cls": [
+                    "card1"
+                ],
+                "html": 1
+            },
+            "designerId": "a4404c6e-2bf6-4753-9912-806ac8de9ace"
+        },
+        {
+            "type": "container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "title": "Tab 2",
+                "designer|userClassName": "MyContainer1",
+                "cls": [
+                    "card2"
+                ],
+                "html": 2
+            },
+            "designerId": "b11c3923-8975-45f9-9e12-871f45c6cd07"
+        },
+        {
+            "type": "container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "title": "Tab 3",
+                "designer|userClassName": "MyContainer2",
+                "cls": [
+                    "card3"
+                ],
+                "html": 3
+            },
+            "designerId": "edaef7cc-cd49-4b7d-af15-fa231e1ab91b"
+        }
+    ]
+}

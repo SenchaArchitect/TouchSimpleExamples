@@ -1,0 +1,20 @@
+{
+    "type": "application",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "views": [
+            "Main",
+            "SettingsPanel",
+            "ReplyOptions",
+            "NumbersPicker"
+        ],
+        "name": "MyApp"
+    },
+    "id": "ExtBox1-ext-gen11871",
+    "designerId": "application",
+    "iconCls": "icon-application"
+}

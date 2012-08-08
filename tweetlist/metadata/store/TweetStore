@@ -1,0 +1,101 @@
+{
+    "type": "store",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "TweetStore",
+        "pageSize": 5,
+        "storeId": "TweetStore"
+    },
+    "id": "ExtBox1-ext-gen5615",
+    "designerId": "8e7998b8-7968-4435-a64f-c40bff7df679",
+    "cn": [
+        {
+            "type": "jsonpproxy",
+            "reference": {
+                "name": "proxy",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyJsonPProxy",
+                "extraParams": [
+                    "{q: 'sencha'}"
+                ],
+                "limitParam": "rpp",
+                "url": "http://search.twitter.com/search.json"
+            },
+            "designerId": "918fbf51-fef6-4b97-b26a-18012c8bc946",
+            "cn": [
+                {
+                    "type": "jsonreader",
+                    "reference": {
+                        "name": "reader",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyJsonReader",
+                        "rootProperty": "results"
+                    },
+                    "designerId": "7d2b2dd3-ca92-467f-9e9d-9994cb51b7dc"
+                }
+            ]
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyField",
+                "name": "from_user"
+            },
+            "designerId": "4a1784db-62af-4285-98fd-b02ee8ca284c"
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyField1",
+                "name": "profile_image_url"
+            },
+            "designerId": "64981f1e-6bfc-45af-ab2f-23bb532dee6d"
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyField2",
+                "name": "text"
+            },
+            "designerId": "50bebba1-853b-4272-8d21-c5f701708137"
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyField3",
+                "name": "created_at"
+            },
+            "designerId": "98b75f95-0e5f-4325-9469-e5cf96a02832"
+        }
+    ]
+}

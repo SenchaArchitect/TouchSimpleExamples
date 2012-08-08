@@ -1,0 +1,211 @@
+{
+    "type": "container",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "Main",
+        "designer|initialView": true,
+        "padding": 20,
+        "layout": "vbox"
+    },
+    "id": "ExtBox1-ext-gen11929",
+    "designerId": "281e6308-e453-443c-ba4e-acb143a7dc36",
+    "cn": [
+        {
+            "type": "toolbar",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyToolbar",
+                "docked": "top",
+                "title": "Overlays Demo"
+            },
+            "designerId": "d66eb8a9-dd6e-4af7-99b5-ad4ac6652433",
+            "cn": [
+                {
+                    "type": "button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyButton",
+                        "itemId": "settingsButton",
+                        "iconCls": "settings",
+                        "iconMask": true,
+                        "text": null
+                    },
+                    "designerId": "d6defdb2-d4d2-4564-b5f1-57701c37c0fc",
+                    "cn": [
+                        {
+                            "type": "basiceventbinding",
+                            "reference": {
+                                "name": "listeners",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "onSettingsButtonTap",
+                                "fn": "onSettingsButtonTap",
+                                "implHandler": [
+                                    "var settings = button.settingsPanel;",
+                                    "if (!settings) {",
+                                    "    settings = button.settingsPanel = Ext.widget('settings');",
+                                    "}",
+                                    "settings.showBy(button);"
+                                ],
+                                "name": "tap"
+                            },
+                            "designerId": "1fe639ff-fad6-4cde-87c9-44c5a43343d7"
+                        }
+                    ]
+                },
+                {
+                    "type": "spacer",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MySpacer"
+                    },
+                    "designerId": "3f193f42-04da-48d4-bd2e-a5cdd92ecbd9"
+                },
+                {
+                    "type": "button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyButton1",
+                        "itemId": "replyButton",
+                        "iconCls": "reply",
+                        "iconMask": true,
+                        "text": null
+                    },
+                    "designerId": "2ee25f74-3f3c-49bb-97f8-bd1f7930eb2a",
+                    "cn": [
+                        {
+                            "type": "basiceventbinding",
+                            "reference": {
+                                "name": "listeners",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "onReplyButtonTap",
+                                "fn": "onReplyButtonTap",
+                                "implHandler": [
+                                    "var sheet = button.actionSheet;",
+                                    "if (!sheet) {",
+                                    "    sheet = button.actionSheet = Ext.Viewport.add(Ext.widget('replyOptions'));",
+                                    "}",
+                                    "sheet.show();"
+                                ],
+                                "name": "tap"
+                            },
+                            "designerId": "a39f82b5-4ffb-4425-8ef8-72443b1dd91b"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "button",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyButton2",
+                "itemId": "mybutton2",
+                "text": "Choose Two Numbers"
+            },
+            "designerId": "340908e7-1b9a-462b-a866-b484c4c14673",
+            "cn": [
+                {
+                    "type": "basiceventbinding",
+                    "reference": {
+                        "name": "listeners",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "onMybutton2Tap",
+                        "fn": "onMybutton2Tap",
+                        "implHandler": [
+                            "var picker = button.numberPicker;",
+                            "",
+                            "if (!picker) {",
+                            "    picker = button.numberPicker = Ext.Viewport.add({",
+                            "        xtype: 'numbersPicker',",
+                            "        listeners: {",
+                            "            change: function(picker, values) {",
+                            "                var n1 = values.number1,",
+                            "                    n2 = values.number2;",
+                            "                Ext.Msg.alert(",
+                            "                    'Numbers Selected', ",
+                            "                    'You chose the numbers ' + n1 + ' and ' + n2 + ",
+                            "                    ', which add up to ' + (n1 + n2) + '.'",
+                            "                );",
+                            "            }",
+                            "        }",
+                            "    });",
+                            "}",
+                            "",
+                            "picker.setValue({",
+                            "    number1: 1,",
+                            "    number2: 1",
+                            "});",
+                            "",
+                            "picker.show();"
+                        ],
+                        "name": "tap"
+                    },
+                    "designerId": "e5c66770-5b2f-46d8-96a7-e2b1e101fd37"
+                }
+            ]
+        },
+        {
+            "type": "spacer",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MySpacer1"
+            },
+            "designerId": "96ffca49-0673-4cd0-976a-e34383f7002e"
+        },
+        {
+            "type": "component",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyComponent",
+                "bottom": null,
+                "html": "This demo shows how you can use the different overlay widgets supported by Sencha Touch 2. The button at the top-left shows a Ext.Panel, the button at the top right shows a Ext.ActionSheet, and the button in the middle shows a Ext.picker.Picker.",
+                "itemId": "description",
+                "margin": null,
+                "style": "color:#999",
+                "ui": null
+            },
+            "designerId": "02eff3f5-ee39-4bbb-98cb-5095bbb6d6f7"
+        }
+    ]
+}

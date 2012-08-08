@@ -1,0 +1,63 @@
+{
+    "type": "list",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "TweetList",
+        "emptyText": "No tweets found matching that search.",
+        "store": "TweetStore",
+        "disableSelection": true
+    },
+    "id": "ExtBox1-ext-gen3898",
+    "designerId": "dca479d1-218c-4640-a688-d2880732f7d3",
+    "cn": [
+        {
+            "type": "listpaging",
+            "reference": {
+                "name": "plugins",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyListPagingPlugin"
+            },
+            "designerId": "d78ab449-ce5d-4246-87b2-d0ef079dcdfa"
+        },
+        {
+            "type": "pullrefresh",
+            "reference": {
+                "name": "plugins",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyPullRefreshPlugin"
+            },
+            "designerId": "c1a65e7e-c5b1-45f6-aa70-50ad9be208b7"
+        },
+        {
+            "type": "template",
+            "reference": {
+                "name": "itemTpl",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "itemTpl",
+                "implHandler": [
+                    "<img src=\"{profile_image_url}\" />",
+                    "<div class=\"tweet\">",
+                    "<span class=\"posted\">{created_at:timeAgoInWords}</span>",
+                    "<h2>{from_user}</h2>",
+                    "<p>{text}</p>",
+                    "</div>"
+                ],
+                "designer|displayName": "itemTpl"
+            },
+            "designerId": "a8439d60-ea1a-4f3d-be9a-7805a1a5faa2"
+        }
+    ]
+}

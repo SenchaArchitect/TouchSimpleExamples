@@ -1,0 +1,17 @@
+{
+    "type": "application",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "views": [
+            "MyTabPanel"
+        ],
+        "name": "MyApp"
+    },
+    "id": "ExtBox1-ext-gen6655",
+    "designerId": "application",
+    "iconCls": "icon-application"
+}

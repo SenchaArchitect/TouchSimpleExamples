@@ -1,0 +1,40 @@
+{
+    "type": "application",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "views": [
+            "MyContainer"
+        ],
+        "name": "MyApp",
+        "controllers": [
+            "ControllerWithAdvancedRoute",
+            "ControllerWithSimpleRoute"
+        ]
+    },
+    "id": "ExtBox1-ext-gen1961",
+    "designerId": "application",
+    "iconCls": "icon-application",
+    "cn": [
+        {
+            "type": "fixedfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "launch",
+                "fn": "launch",
+                "implHandler": [
+                    ""
+                ]
+            },
+            "designerId": "fb1ebc2a-8980-4efa-95a1-d02efc91dbc6",
+            "iconCls": "icon-launch-function"
+        }
+    ]
+}

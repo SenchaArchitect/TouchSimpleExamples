@@ -1,0 +1,32 @@
+{
+    "type": "container",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "MyContainer",
+        "designer|initialView": true,
+        "html": "Try some of the following route URLs: <br><br><ul><li><a href=\"#login\">#login</a></li><li><a href=\"#user/12345\">#user/12345</a></li><li><a href=\"#folder/myfolder/file/myfile\">#folder/myfolder/file/myfile</a></li>",
+        "padding": 40
+    },
+    "id": "ExtBox1-ext-gen14788",
+    "designerId": "7a5ac0d5-75f4-4f9e-83ac-b7a7f8e98f23",
+    "cn": [
+        {
+            "type": "toolbar",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyToolbar",
+                "docked": "top",
+                "title": "Routes"
+            },
+            "designerId": "d8ce19f0-1cdd-4629-b412-dee460200aa8"
+        }
+    ]
+}

@@ -1,0 +1,59 @@
+{
+    "name": "tabs",
+    "settings": {
+        "urlPrefix": "http://localhost/",
+        "spacesToIndent": 4,
+        "exportPath": "",
+        "lineEnding": "LF",
+        "genTimestamps": false,
+        "cacheBust": false,
+        "codeGenFormat": "Class",
+        "senchaIoKey": "",
+        "senchaIoPath": "http://extjs.cachefly.net/designer/IO/",
+        "instantiateStore": true,
+        "saveOnDeploy": false,
+        "appName": "MyApp"
+    },
+    "xdsVersion": "2.0.0",
+    "xdsBuild": 557,
+    "schemaVersion": 1,
+    "upgradeVersion": 210000000495,
+    "framework": "touch20",
+    "topInstanceFileMap": {
+        "ddedca87-ade6-4cfb-b9b5-9b14fb6c9b09": {
+            "paths": [
+                "metadata/view/MyTabPanel",
+                "app/view/override/MyTabPanel.js",
+                "app/view/MyTabPanel.js"
+            ],
+            "className": "MyTabPanel"
+        },
+        "456f258b-85e5-4604-9e1d-ece1258c2af3": {
+            "paths": [
+                "metadata/resource/css"
+            ],
+            "className": "css"
+        },
+        "60e8b8e2-73e4-45e1-aefe-0690953ad498": {
+            "paths": [
+                "metadata/resource/Library"
+            ],
+            "className": "Library"
+        }
+    },
+    "viewOrderMap": {
+        "view": [
+            "ddedca87-ade6-4cfb-b9b5-9b14fb6c9b09"
+        ],
+        "store": [],
+        "controller": [],
+        "model": [],
+        "resource": [
+            "60e8b8e2-73e4-45e1-aefe-0690953ad498",
+            "456f258b-85e5-4604-9e1d-ece1258c2af3"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}
