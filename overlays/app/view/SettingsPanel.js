@@ -18,7 +18,6 @@ Ext.define('MyApp.view.SettingsPanel', {
     alias: 'widget.settings',
 
     config: {
-        centered: true,
         width: 240,
         hideOnMaskTap: true,
         modal: true,
