@@ -8,7 +8,7 @@
     "userConfig": {
         "designer|userClassName": "SettingsPanel",
         "designer|userAlias": "settings",
-        "centered": true,
+        "centered": null,
         "width": 240,
         "hideOnMaskTap": true,
         "modal": true

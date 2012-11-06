@@ -38,7 +38,7 @@
                 "cls": [
                     "card1"
                 ],
-                "html": 1
+                "html": "1"
             },
             "designerId": "a4404c6e-2bf6-4753-9912-806ac8de9ace"
         },
@@ -55,7 +55,7 @@
                 "cls": [
                     "card2"
                 ],
-                "html": 2
+                "html": "2"
             },
             "designerId": "b11c3923-8975-45f9-9e12-871f45c6cd07"
         },
@@ -72,7 +72,7 @@
                 "cls": [
                     "card3"
                 ],
-                "html": 3
+                "html": "3"
             },
             "designerId": "edaef7cc-cd49-4b7d-af15-fa231e1ab91b"
         }

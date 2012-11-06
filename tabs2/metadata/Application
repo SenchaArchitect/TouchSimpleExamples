@@ -12,6 +12,5 @@
         "name": "MyApp"
     },
     "id": "ExtBox1-ext-gen6655",
-    "designerId": "application",
-    "iconCls": "icon-application"
+    "designerId": "application"
 }
