@@ -1,5 +1,5 @@
 {
-    "type": "formpanel",
+    "type": "Ext.form.Panel",
     "reference": {
         "name": "items",
         "type": "array"
@@ -9,11 +9,10 @@
         "designer|userClassName": "Step3Panel",
         "designer|userAlias": "step3"
     },
-    "id": "ExtBox1-ext-gen13640",
     "designerId": "59837de6-d1e1-4301-abd7-e5769a45fd27",
     "cn": [
         {
-            "type": "fieldset",
+            "type": "Ext.form.FieldSet",
             "reference": {
                 "name": "items",
                 "type": "array"
@@ -26,7 +25,7 @@
             "designerId": "b58b2f89-d6a4-42de-8122-1b7abc0160c4",
             "cn": [
                 {
-                    "type": "radiofield",
+                    "type": "Ext.field.Radio",
                     "reference": {
                         "name": "items",
                         "type": "array"
@@ -42,7 +41,7 @@
                     "designerId": "e61a6df2-634d-4464-8c06-6285d493350c"
                 },
                 {
-                    "type": "radiofield",
+                    "type": "Ext.field.Radio",
                     "reference": {
                         "name": "items",
                         "type": "array"
@@ -57,7 +56,7 @@
                     "designerId": "8284a14c-d975-49eb-a07c-d49615ecd92f"
                 },
                 {
-                    "type": "radiofield",
+                    "type": "Ext.field.Radio",
                     "reference": {
                         "name": "items",
                         "type": "array"
@@ -72,7 +71,7 @@
                     "designerId": "334135b9-d568-4ff5-97ad-3af412df1cef"
                 },
                 {
-                    "type": "radiofield",
+                    "type": "Ext.field.Radio",
                     "reference": {
                         "name": "items",
                         "type": "array"
@@ -89,15 +88,15 @@
             ]
         },
         {
-            "type": "button",
+            "type": "Ext.Button",
             "reference": {
                 "name": "items",
                 "type": "array"
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "MyButton",
                 "ui": "confirm",
+                "designer|userClassName": "MyButton",
                 "text": "Calculate!"
             },
             "designerId": "5577410c-3796-43fe-9f3b-e0523e13025e"

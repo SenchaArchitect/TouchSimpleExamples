@@ -1,5 +1,5 @@
 {
-    "type": "navigationview",
+    "type": "Ext.navigation.View",
     "reference": {
         "name": "items",
         "type": "array"
@@ -10,7 +10,6 @@
         "designer|initialView": true,
         "useTitleForBackButtonText": true
     },
-    "id": "ExtBox1-ext-gen16080",
     "designerId": "8fbdeb24-48f0-4623-8aeb-4e33d2eb87b0",
     "cn": [
         {
@@ -24,18 +23,18 @@
                 "title": "Step 1"
             },
             "designerId": "122ca0a1-1c24-4256-a1ad-c5f1830a86c6",
-            "masterInstanceId": "ExtBox1-ext-gen11540"
+            "masterInstanceId": "f2e0179b-4596-47ef-942a-29b67dd5987a"
         },
         {
-            "type": "navigationbar",
+            "type": "Ext.navigation.Bar",
             "reference": {
                 "name": "navigationBar",
                 "type": "object"
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "MyNavigationBar",
-                "ui": "light"
+                "ui": "light",
+                "designer|userClassName": "MyNavigationBar"
             },
             "designerId": "1f9a0b20-5bb1-441f-bf64-07a6faa116ba"
         }

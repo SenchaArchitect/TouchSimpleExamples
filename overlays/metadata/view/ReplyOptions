@@ -1,5 +1,5 @@
 {
-    "type": "actionsheet",
+    "type": "Ext.ActionSheet",
     "reference": {
         "name": "items",
         "type": "array"
@@ -9,11 +9,10 @@
         "designer|userClassName": "ReplyOptions",
         "designer|userAlias": "replyOptions"
     },
-    "id": "ExtBox1-ext-gen15607",
     "designerId": "2bdc4a32-bcda-47fd-95a9-07446a0d434b",
     "cn": [
         {
-            "type": "button",
+            "type": "Ext.Button",
             "reference": {
                 "name": "items",
                 "type": "array"
@@ -26,7 +25,7 @@
             "designerId": "3db2ff6e-72ca-48bc-b93e-5c8ffe5974c1"
         },
         {
-            "type": "button",
+            "type": "Ext.Button",
             "reference": {
                 "name": "items",
                 "type": "array"
@@ -39,16 +38,16 @@
             "designerId": "dd7ccb82-56f1-4db0-9cc2-0e0968edee2c"
         },
         {
-            "type": "button",
+            "type": "Ext.Button",
             "reference": {
                 "name": "items",
                 "type": "array"
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "MyButton5",
                 "itemId": "mybutton5",
                 "ui": "decline",
+                "designer|userClassName": "MyButton5",
                 "text": "Cancel"
             },
             "designerId": "d961ddfb-254a-44d7-8463-bcdba7428b4d",

@@ -1,5 +1,5 @@
 {
-    "type": "list",
+    "type": "Ext.dataview.List",
     "reference": {
         "name": "items",
         "type": "array"
@@ -7,15 +7,14 @@
     "codeClass": null,
     "userConfig": {
         "designer|userClassName": "TweetList",
+        "disableSelection": true,
         "emptyText": "No tweets found matching that search.",
-        "store": "TweetStore",
-        "disableSelection": true
+        "store": "TweetStore"
     },
-    "id": "ExtBox1-ext-gen3898",
     "designerId": "dca479d1-218c-4640-a688-d2880732f7d3",
     "cn": [
         {
-            "type": "listpaging",
+            "type": "Ext.plugin.ListPaging",
             "reference": {
                 "name": "plugins",
                 "type": "array"
@@ -27,7 +26,7 @@
             "designerId": "d78ab449-ce5d-4246-87b2-d0ef079dcdfa"
         },
         {
-            "type": "pullrefresh",
+            "type": "Ext.plugin.PullRefresh",
             "reference": {
                 "name": "plugins",
                 "type": "array"
@@ -39,7 +38,7 @@
             "designerId": "c1a65e7e-c5b1-45f6-aa70-50ad9be208b7"
         },
         {
-            "type": "template",
+            "type": "Ext.XTemplate",
             "reference": {
                 "name": "itemTpl",
                 "type": "object"

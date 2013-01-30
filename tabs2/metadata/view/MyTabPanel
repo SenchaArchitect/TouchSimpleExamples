@@ -1,36 +1,35 @@
 {
-    "type": "tabpanel",
+    "type": "Ext.tab.Panel",
     "reference": {
         "name": "items",
         "type": "array"
     },
     "codeClass": null,
     "userConfig": {
+        "ui": "light",
         "designer|userClassName": "MyTabPanel",
         "designer|initialView": true,
-        "ui": "light",
         "defaults": [
             "{scrollable: true}"
         ]
     },
-    "id": "ExtBox1-ext-gen1920",
     "designerId": "ddedca87-ade6-4cfb-b9b5-9b14fb6c9b09",
     "cn": [
         {
-            "type": "tabbar",
+            "type": "Ext.tab.Bar",
             "reference": {
                 "name": "tabBar",
                 "type": "object"
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "MyTabBar",
-                "docked": "bottom"
+                "docked": "bottom",
+                "designer|userClassName": "MyTabBar"
             },
             "designerId": "72931c11-7101-464e-958f-c700ef2f5570"
         },
         {
-            "type": "container",
+            "type": "Ext.Container",
             "reference": {
                 "name": "items",
                 "type": "array"
@@ -39,16 +38,16 @@
             "userConfig": {
                 "title": "About",
                 "iconCls": "info",
-                "designer|userClassName": "MyContainer",
                 "cls": [
                     "card1"
                 ],
-                "html": "<h1>Bottom Tabs</h1><p>Docking tabs to the bottom will automatically change their style. The tabs below are type=\"light\", though the standard type is dark. Badges (like the 4 &amp; Long title below) can be added by setting <code>badgeText</code> when creating a tab/card or by using <code>setBadge()</code> on the tab later.</p>"
+                "html": "<h1>Bottom Tabs</h1><p>Docking tabs to the bottom will automatically change their style. The tabs below are type=\"light\", though the standard type is dark. Badges (like the 4 &amp; Long title below) can be added by setting <code>badgeText</code> when creating a tab/card or by using <code>setBadge()</code> on the tab later.</p>",
+                "designer|userClassName": "MyContainer"
             },
             "designerId": "6f312e2c-efd6-4fd9-9df4-e924732498f5"
         },
         {
-            "type": "container",
+            "type": "Ext.Container",
             "reference": {
                 "name": "items",
                 "type": "array"
@@ -58,16 +57,16 @@
                 "title": "Favorites",
                 "badgeText": "4",
                 "iconCls": "favorites",
-                "designer|userClassName": "MyContainer1",
                 "cls": [
                     "card2"
                 ],
-                "html": "<h1>Favorites Card</h1>"
+                "html": "<h1>Favorites Card</h1>",
+                "designer|userClassName": "MyContainer1"
             },
             "designerId": "f74051b0-d059-4e5b-ac14-e7c1e4326f9a"
         },
         {
-            "type": "container",
+            "type": "Ext.Container",
             "reference": {
                 "name": "items",
                 "type": "array"
@@ -77,16 +76,16 @@
                 "title": "Downloads",
                 "badgeText": "Text can go here too, but it will be cut off if it is too long.",
                 "iconCls": "download",
-                "designer|userClassName": "MyContainer2",
                 "cls": [
                     "card3"
                 ],
-                "html": "<h1>Downloads Card</h1>"
+                "html": "<h1>Downloads Card</h1>",
+                "designer|userClassName": "MyContainer2"
             },
             "designerId": "66bad555-8ab3-4f73-b413-dc4360dbbf20"
         },
         {
-            "type": "container",
+            "type": "Ext.Container",
             "reference": {
                 "name": "items",
                 "type": "array"
@@ -95,16 +94,16 @@
             "userConfig": {
                 "title": "Settings",
                 "iconCls": "settings",
-                "designer|userClassName": "MyContainer3",
                 "cls": [
                     "card4"
                 ],
-                "html": "<h1>Settings Card</h1>"
+                "html": "<h1>Settings Card</h1>",
+                "designer|userClassName": "MyContainer3"
             },
             "designerId": "60f21f17-c92c-4297-9fb0-cab6273a42a2"
         },
         {
-            "type": "container",
+            "type": "Ext.Container",
             "reference": {
                 "name": "items",
                 "type": "array"
@@ -113,11 +112,11 @@
             "userConfig": {
                 "title": "User",
                 "iconCls": "user",
-                "designer|userClassName": "MyContainer4",
                 "cls": [
                     "card5"
                 ],
-                "html": "<h1>User Card</h1>"
+                "html": "<h1>User Card</h1>",
+                "designer|userClassName": "MyContainer4"
             },
             "designerId": "b428ee16-5f11-49d8-b4a2-a1caca990dcf"
         }

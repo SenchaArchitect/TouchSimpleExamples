@@ -1,5 +1,5 @@
 {
-    "type": "tabpanel",
+    "type": "Ext.tab.Panel",
     "reference": {
         "name": "items",
         "type": "array"
@@ -9,24 +9,23 @@
         "designer|userClassName": "MyTabPanel",
         "designer|initialView": true
     },
-    "id": "ExtBox1-ext-gen1920",
     "designerId": "ddedca87-ade6-4cfb-b9b5-9b14fb6c9b09",
     "cn": [
         {
-            "type": "tabbar",
+            "type": "Ext.tab.Bar",
             "reference": {
                 "name": "tabBar",
                 "type": "object"
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "MyTabBar",
-                "docked": "top"
+                "docked": "top",
+                "designer|userClassName": "MyTabBar"
             },
             "designerId": "893a58f3-5340-4264-8a07-c6762f02db2f"
         },
         {
-            "type": "container",
+            "type": "Ext.Container",
             "reference": {
                 "name": "items",
                 "type": "array"
@@ -34,16 +33,16 @@
             "codeClass": null,
             "userConfig": {
                 "title": "Tab 1",
-                "designer|userClassName": "MyContainer",
                 "cls": [
                     "card1"
                 ],
-                "html": "1"
+                "html": "1",
+                "designer|userClassName": "MyContainer"
             },
             "designerId": "a4404c6e-2bf6-4753-9912-806ac8de9ace"
         },
         {
-            "type": "container",
+            "type": "Ext.Container",
             "reference": {
                 "name": "items",
                 "type": "array"
@@ -51,16 +50,16 @@
             "codeClass": null,
             "userConfig": {
                 "title": "Tab 2",
-                "designer|userClassName": "MyContainer1",
                 "cls": [
                     "card2"
                 ],
-                "html": "2"
+                "html": "2",
+                "designer|userClassName": "MyContainer1"
             },
             "designerId": "b11c3923-8975-45f9-9e12-871f45c6cd07"
         },
         {
-            "type": "container",
+            "type": "Ext.Container",
             "reference": {
                 "name": "items",
                 "type": "array"
@@ -68,11 +67,11 @@
             "codeClass": null,
             "userConfig": {
                 "title": "Tab 3",
-                "designer|userClassName": "MyContainer2",
                 "cls": [
                     "card3"
                 ],
-                "html": "3"
+                "html": "3",
+                "designer|userClassName": "MyContainer2"
             },
             "designerId": "edaef7cc-cd49-4b7d-af15-fa231e1ab91b"
         }
