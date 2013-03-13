@@ -1,5 +1,5 @@
 {
-    "type": "application",
+    "type": "Ext.app.Application",
     "reference": {
         "name": "items",
         "type": "array"
@@ -18,6 +18,5 @@
         ],
         "name": "Info"
     },
-    "id": "ExtBox1-ext-gen1758",
     "designerId": "application"
 }

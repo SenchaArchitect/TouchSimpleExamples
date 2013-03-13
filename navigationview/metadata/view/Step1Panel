@@ -1,5 +1,5 @@
 {
-    "type": "formpanel",
+    "type": "Ext.form.Panel",
     "reference": {
         "name": "items",
         "type": "array"
@@ -9,11 +9,10 @@
         "designer|userClassName": "Step1Panel",
         "designer|userAlias": "step1"
     },
-    "id": "ExtBox1-ext-gen11540",
     "designerId": "f2e0179b-4596-47ef-942a-29b67dd5987a",
     "cn": [
         {
-            "type": "fieldset",
+            "type": "Ext.form.FieldSet",
             "reference": {
                 "name": "items",
                 "type": "array"
@@ -26,7 +25,7 @@
             "designerId": "67baedef-6a86-4065-add5-84c8995eebbf",
             "cn": [
                 {
-                    "type": "numberfield",
+                    "type": "Ext.field.Number",
                     "reference": {
                         "name": "items",
                         "type": "array"
@@ -42,15 +41,15 @@
             ]
         },
         {
-            "type": "button",
+            "type": "Ext.Button",
             "reference": {
                 "name": "items",
                 "type": "array"
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "MyButton",
                 "ui": "forward",
+                "designer|userClassName": "MyButton",
                 "text": "Next"
             },
             "designerId": "f2e1577e-cc81-4099-9744-d72a190e3cbe"

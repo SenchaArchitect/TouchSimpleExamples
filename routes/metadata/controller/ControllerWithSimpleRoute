@@ -1,5 +1,5 @@
 {
-    "type": "controller",
+    "type": "Ext.app.Controller",
     "reference": {
         "name": "items",
         "type": "array"
@@ -8,34 +8,34 @@
     "userConfig": {
         "designer|userClassName": "ControllerWithSimpleRoute"
     },
-    "id": "ExtBox1-ext-gen2207",
     "designerId": "ad3af552-e9cd-48b4-9a25-4527d0f555c9",
     "cn": [
         {
-            "type": "controllerroute",
+            "type": "Ext.app.Route",
             "reference": {
                 "name": "items",
                 "type": "array"
             },
             "codeClass": null,
             "userConfig": {
+                "url": "login",
                 "designer|userClassName": "showLogin",
                 "fn": "showLogin",
                 "implHandler": [
                     "alert('Route was handled by showLogin()');"
-                ],
-                "url": "login"
+                ]
             },
             "designerId": "f4f9ca17-2908-4fc2-aa5d-c8a13c05e4d1"
         },
         {
-            "type": "controllerroute",
+            "type": "Ext.app.Route",
             "reference": {
                 "name": "items",
                 "type": "array"
             },
             "codeClass": null,
             "userConfig": {
+                "url": "user/:user",
                 "designer|userClassName": "showUserId",
                 "fn": "showUserId",
                 "designer|params": [
@@ -43,8 +43,7 @@
                 ],
                 "implHandler": [
                     "alert('Route was handled by showUserId(' + user + ')');"
-                ],
-                "url": "user/:user"
+                ]
             },
             "designerId": "2eb1718e-73f5-4713-ba46-7beee0691baf"
         },

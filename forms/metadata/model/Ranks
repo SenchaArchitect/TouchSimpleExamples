@@ -1,5 +1,5 @@
 {
-    "type": "datamodel",
+    "type": "Ext.data.Model",
     "reference": {
         "name": "items",
         "type": "array"
@@ -8,32 +8,31 @@
     "userConfig": {
         "designer|userClassName": "Ranks"
     },
-    "id": "ExtBox1-ext-gen4920",
     "designerId": "eb2b1758-45bd-4c7a-8ded-629edb01f279",
     "cn": [
         {
-            "type": "datafield",
+            "type": "Ext.data.Field",
             "reference": {
                 "name": "fields",
                 "type": "array"
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "MyField13",
-                "name": "rank"
+                "name": "rank",
+                "designer|userClassName": "MyField13"
             },
             "designerId": "3fe361b0-3673-4110-936d-e831946923ca"
         },
         {
-            "type": "datafield",
+            "type": "Ext.data.Field",
             "reference": {
                 "name": "fields",
                 "type": "array"
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "MyField14",
-                "name": "title"
+                "name": "title",
+                "designer|userClassName": "MyField14"
             },
             "designerId": "1f0c366b-f466-4da9-b932-f94bd31ac4ad"
         }
