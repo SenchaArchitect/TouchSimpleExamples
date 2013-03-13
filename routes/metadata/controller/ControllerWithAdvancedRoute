@@ -1,5 +1,5 @@
 {
-    "type": "controller",
+    "type": "Ext.app.Controller",
     "reference": {
         "name": "items",
         "type": "array"
@@ -8,17 +8,17 @@
     "userConfig": {
         "designer|userClassName": "ControllerWithAdvancedRoute"
     },
-    "id": "ExtBox1-ext-gen2014",
     "designerId": "ba3530f9-d987-4e95-b9ab-feeb522494f4",
     "cn": [
         {
-            "type": "controllerroute",
+            "type": "Ext.app.Route",
             "reference": {
                 "name": "items",
                 "type": "array"
             },
             "codeClass": null,
             "userConfig": {
+                "url": "folder/:folder/file/:id",
                 "designer|userClassName": "showFile",
                 "fn": "showFile",
                 "designer|params": [
@@ -27,8 +27,7 @@
                 ],
                 "implHandler": [
                     "alert('Route was handled by showFile(' + folder + ', ' + id + ')');"
-                ],
-                "url": "folder/:folder/file/:id"
+                ]
             },
             "designerId": "d2b20497-9266-4c31-80ca-e387a779b960",
             "cn": [

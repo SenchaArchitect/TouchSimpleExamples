@@ -16,10 +16,10 @@
         "appName": "MyApp",
         "cssPath": ""
     },
-    "xdsVersion": "2.1.0",
-    "xdsBuild": 670,
+    "xdsVersion": "2.2.0",
+    "xdsBuild": 840,
     "schemaVersion": 1,
-    "upgradeVersion": 210000000498,
+    "upgradeVersion": 210000000499,
     "framework": "touch21",
     "topInstanceFileMap": {
         "ba3530f9-d987-4e95-b9ab-feeb522494f4": {

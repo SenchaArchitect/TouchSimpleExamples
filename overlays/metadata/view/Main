@@ -1,43 +1,42 @@
 {
-    "type": "container",
+    "type": "Ext.Container",
     "reference": {
         "name": "items",
         "type": "array"
     },
     "codeClass": null,
     "userConfig": {
+        "padding": 20,
         "designer|userClassName": "Main",
         "designer|initialView": true,
-        "padding": 20,
         "layout": "vbox"
     },
-    "id": "ExtBox1-ext-gen11929",
     "designerId": "281e6308-e453-443c-ba4e-acb143a7dc36",
     "cn": [
         {
-            "type": "toolbar",
+            "type": "Ext.Toolbar",
             "reference": {
                 "name": "items",
                 "type": "array"
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "MyToolbar",
                 "docked": "top",
+                "designer|userClassName": "MyToolbar",
                 "title": "Overlays Demo"
             },
             "designerId": "d66eb8a9-dd6e-4af7-99b5-ad4ac6652433",
             "cn": [
                 {
-                    "type": "button",
+                    "type": "Ext.Button",
                     "reference": {
                         "name": "items",
                         "type": "array"
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "designer|userClassName": "MyButton",
                         "itemId": "settingsButton",
+                        "designer|userClassName": "MyButton",
                         "iconCls": "settings",
                         "iconMask": true,
                         "text": null
@@ -68,7 +67,7 @@
                     ]
                 },
                 {
-                    "type": "spacer",
+                    "type": "Ext.Spacer",
                     "reference": {
                         "name": "items",
                         "type": "array"
@@ -80,15 +79,15 @@
                     "designerId": "3f193f42-04da-48d4-bd2e-a5cdd92ecbd9"
                 },
                 {
-                    "type": "button",
+                    "type": "Ext.Button",
                     "reference": {
                         "name": "items",
                         "type": "array"
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "designer|userClassName": "MyButton1",
                         "itemId": "replyButton",
+                        "designer|userClassName": "MyButton1",
                         "iconCls": "reply",
                         "iconMask": true,
                         "text": null
@@ -121,15 +120,15 @@
             ]
         },
         {
-            "type": "button",
+            "type": "Ext.Button",
             "reference": {
                 "name": "items",
                 "type": "array"
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "MyButton2",
                 "itemId": "mybutton2",
+                "designer|userClassName": "MyButton2",
                 "text": "Choose Two Numbers"
             },
             "designerId": "340908e7-1b9a-462b-a866-b484c4c14673",
@@ -178,7 +177,7 @@
             ]
         },
         {
-            "type": "spacer",
+            "type": "Ext.Spacer",
             "reference": {
                 "name": "items",
                 "type": "array"
@@ -190,20 +189,20 @@
             "designerId": "96ffca49-0673-4cd0-976a-e34383f7002e"
         },
         {
-            "type": "component",
+            "type": "Ext.Component",
             "reference": {
                 "name": "items",
                 "type": "array"
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "MyComponent",
                 "bottom": null,
                 "html": "This demo shows how you can use the different overlay widgets supported by Sencha Touch 2. The button at the top-left shows a Ext.Panel, the button at the top right shows a Ext.ActionSheet, and the button in the middle shows a Ext.picker.Picker.",
                 "itemId": "description",
                 "margin": null,
                 "style": "color:#999",
-                "ui": null
+                "ui": null,
+                "designer|userClassName": "MyComponent"
             },
             "designerId": "02eff3f5-ee39-4bbb-98cb-5095bbb6d6f7"
         }

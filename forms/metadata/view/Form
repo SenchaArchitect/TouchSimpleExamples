@@ -1,21 +1,20 @@
 {
-    "type": "formpanel",
+    "type": "Ext.form.Panel",
     "reference": {
         "name": "items",
         "type": "array"
     },
     "codeClass": null,
     "userConfig": {
+        "itemId": null,
         "designer|userClassName": "Form",
         "designer|initialView": true,
-        "itemId": null,
         "url": "postUser.php"
     },
-    "id": "ExtBox1-ext-gen6057",
     "designerId": "47aef567-0489-4228-879f-064d9bb57229",
     "cn": [
         {
-            "type": "fieldset",
+            "type": "Ext.form.FieldSet",
             "reference": {
                 "name": "items",
                 "type": "array"
@@ -32,7 +31,7 @@
             "designerId": "2451da5c-9020-450f-a342-997f0ca2182e",
             "cn": [
                 {
-                    "type": "textfield",
+                    "type": "Ext.field.Text",
                     "reference": {
                         "name": "items",
                         "type": "array"
@@ -46,7 +45,7 @@
                     "designerId": "5c8ec20d-f5c1-4490-9822-0e33a6761b2c"
                 },
                 {
-                    "type": "passwordfield",
+                    "type": "Ext.field.Password",
                     "reference": {
                         "name": "items",
                         "type": "array"
@@ -61,22 +60,22 @@
                     "designerId": "40f18068-37a5-4bfb-b87a-ccf74996d9aa"
                 },
                 {
-                    "type": "textfield",
+                    "type": "Ext.field.Text",
                     "reference": {
                         "name": "items",
                         "type": "array"
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "designer|userClassName": "MyTextField2",
                         "disabled": true,
+                        "designer|userClassName": "MyTextField2",
                         "label": "Disabled",
                         "name": "disabled"
                     },
                     "designerId": "5ac38a58-4775-44aa-a835-00b0f627cc08"
                 },
                 {
-                    "type": "emailfield",
+                    "type": "Ext.field.Email",
                     "reference": {
                         "name": "items",
                         "type": "array"
@@ -91,7 +90,7 @@
                     "designerId": "32e57130-ba8a-49e2-88c2-8a81e225a613"
                 },
                 {
-                    "type": "urlfield",
+                    "type": "Ext.field.Url",
                     "reference": {
                         "name": "items",
                         "type": "array"
@@ -106,37 +105,37 @@
                     "designerId": "50c92571-974a-4931-801e-aaf6f8515ff5"
                 },
                 {
-                    "type": "checkboxfield",
+                    "type": "Ext.field.Checkbox",
                     "reference": {
                         "name": "items",
                         "type": "array"
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "designer|userClassName": "MyCheckbox",
                         "height": null,
+                        "designer|userClassName": "MyCheckbox",
                         "label": "Cool",
                         "name": "cool"
                     },
                     "designerId": "14089045-2edc-4d5e-9bda-439c4d8e9566"
                 },
                 {
-                    "type": "spinnerfield",
+                    "type": "Ext.field.Spinner",
                     "reference": {
                         "name": "items",
                         "type": "array"
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "designer|userClassName": "MySpinnerField",
                         "id": "spinner",
+                        "designer|userClassName": "MySpinnerField",
                         "label": "Spinner",
                         "name": "spinner"
                     },
                     "designerId": "20530df9-d723-4382-b97d-454662edba9c"
                 },
                 {
-                    "type": "selectfield",
+                    "type": "Ext.field.Select",
                     "reference": {
                         "name": "items",
                         "type": "array"
@@ -153,7 +152,7 @@
                     "designerId": "c503cdad-5446-476d-968b-043b7ae761f5"
                 },
                 {
-                    "type": "datepickerfield",
+                    "type": "Ext.field.DatePicker",
                     "reference": {
                         "name": "items",
                         "type": "array"
@@ -168,7 +167,7 @@
                     "designerId": "c15e0eff-319a-4fb4-a457-f1d9a62b5387",
                     "cn": [
                         {
-                            "type": "datepicker",
+                            "type": "Ext.picker.Date",
                             "reference": {
                                 "name": "picker",
                                 "type": "object"
@@ -180,7 +179,7 @@
                             "designerId": "4d464612-ccac-4585-9acf-29d47fb2181c",
                             "cn": [
                                 {
-                                    "type": "button",
+                                    "type": "Ext.Button",
                                     "reference": {
                                         "name": "doneButton",
                                         "type": "object"
@@ -193,7 +192,7 @@
                                     "designerId": "fccbc3f5-b19f-481a-af5b-1645e8e843e1"
                                 },
                                 {
-                                    "type": "button",
+                                    "type": "Ext.Button",
                                     "reference": {
                                         "name": "cancelButton",
                                         "type": "object"
@@ -210,7 +209,7 @@
                     ]
                 },
                 {
-                    "type": "hiddenfield",
+                    "type": "Ext.field.Hidden",
                     "reference": {
                         "name": "items",
                         "type": "array"
@@ -223,7 +222,7 @@
                     "designerId": "4979fb73-178d-4d5c-95c9-9795332c75a7"
                 },
                 {
-                    "type": "textareafield",
+                    "type": "Ext.field.TextArea",
                     "reference": {
                         "name": "items",
                         "type": "array"
@@ -239,7 +238,7 @@
                     "designerId": "8d6679a2-0154-408e-b2aa-80f5d8d858ef"
                 },
                 {
-                    "type": "sliderfield",
+                    "type": "Ext.field.Slider",
                     "reference": {
                         "name": "items",
                         "type": "array"
@@ -253,7 +252,7 @@
                     "designerId": "402f810a-d70d-40f2-a372-6935f0d9cb3d"
                 },
                 {
-                    "type": "togglefield",
+                    "type": "Ext.field.Toggle",
                     "reference": {
                         "name": "items",
                         "type": "array"
@@ -267,7 +266,7 @@
                     "designerId": "0daf3815-2162-456a-a585-c61f9c62627a"
                 },
                 {
-                    "type": "radiofield",
+                    "type": "Ext.field.Radio",
                     "reference": {
                         "name": "items",
                         "type": "array"
@@ -282,7 +281,7 @@
                     "designerId": "6c37d4fd-cfb2-4839-a291-1162419b39c8"
                 },
                 {
-                    "type": "radiofield",
+                    "type": "Ext.field.Radio",
                     "reference": {
                         "name": "items",
                         "type": "array"
@@ -299,7 +298,7 @@
             ]
         },
         {
-            "type": "fieldset",
+            "type": "Ext.form.FieldSet",
             "reference": {
                 "name": "items",
                 "type": "array"
@@ -312,7 +311,7 @@
             "designerId": "40ce8db3-a6bb-490a-9087-632a514da90d",
             "cn": [
                 {
-                    "type": "radiofield",
+                    "type": "Ext.field.Radio",
                     "reference": {
                         "name": "items",
                         "type": "array"
@@ -327,7 +326,7 @@
                     "designerId": "bc820820-d630-4559-bd2c-58ca82571726"
                 },
                 {
-                    "type": "radiofield",
+                    "type": "Ext.field.Radio",
                     "reference": {
                         "name": "items",
                         "type": "array"
@@ -345,7 +344,7 @@
             ]
         },
         {
-            "type": "fieldset",
+            "type": "Ext.form.FieldSet",
             "reference": {
                 "name": "items",
                 "type": "array"
@@ -358,7 +357,7 @@
             "designerId": "92a46938-cba8-469a-99c0-2831f81350dc",
             "cn": [
                 {
-                    "type": "numberfield",
+                    "type": "Ext.field.Number",
                     "reference": {
                         "name": "items",
                         "type": "array"
@@ -372,7 +371,7 @@
                     "designerId": "fc77e121-8b4d-4a5f-ab29-d068c81e1d48"
                 },
                 {
-                    "type": "emailfield",
+                    "type": "Ext.field.Email",
                     "reference": {
                         "name": "items",
                         "type": "array"
@@ -387,7 +386,7 @@
                     "designerId": "91c2c2bf-65ec-4197-8875-8b03fe1eaae3"
                 },
                 {
-                    "type": "urlfield",
+                    "type": "Ext.field.Url",
                     "reference": {
                         "name": "items",
                         "type": "array"
@@ -404,7 +403,7 @@
             ]
         },
         {
-            "type": "fieldset",
+            "type": "Ext.form.FieldSet",
             "reference": {
                 "name": "items",
                 "type": "array"
@@ -417,7 +416,7 @@
             "designerId": "efabc934-2d9d-4ec6-8552-57fdfdc93446",
             "cn": [
                 {
-                    "type": "selectfield",
+                    "type": "Ext.field.Select",
                     "reference": {
                         "name": "items",
                         "type": "array"
@@ -434,7 +433,7 @@
             ]
         },
         {
-            "type": "fieldset",
+            "type": "Ext.form.FieldSet",
             "reference": {
                 "name": "items",
                 "type": "array"
@@ -447,7 +446,7 @@
             "designerId": "e5de5570-35f9-4091-9051-57ff64eee336",
             "cn": [
                 {
-                    "type": "textfield",
+                    "type": "Ext.field.Text",
                     "reference": {
                         "name": "items",
                         "type": "array"
@@ -463,7 +462,7 @@
             ]
         },
         {
-            "type": "fieldset",
+            "type": "Ext.form.FieldSet",
             "reference": {
                 "name": "items",
                 "type": "array"
@@ -476,7 +475,7 @@
             "designerId": "cb9a5db5-ec97-471a-999a-73d87dc1d7e7",
             "cn": [
                 {
-                    "type": "togglefield",
+                    "type": "Ext.field.Toggle",
                     "reference": {
                         "name": "items",
                         "type": "array"
@@ -492,7 +491,7 @@
             ]
         },
         {
-            "type": "fieldset",
+            "type": "Ext.form.FieldSet",
             "reference": {
                 "name": "items",
                 "type": "array"
@@ -505,7 +504,7 @@
             "designerId": "36f9f93b-288f-45df-ba5b-6777d6a4431a",
             "cn": [
                 {
-                    "type": "sliderfield",
+                    "type": "Ext.field.Slider",
                     "reference": {
                         "name": "items",
                         "type": "array"
@@ -524,7 +523,7 @@
             ]
         },
         {
-            "type": "fieldset",
+            "type": "Ext.form.FieldSet",
             "reference": {
                 "name": "items",
                 "type": "array"
@@ -537,7 +536,7 @@
             "designerId": "2c0df208-a154-48eb-91a5-ccc7cf540668",
             "cn": [
                 {
-                    "type": "sliderfield",
+                    "type": "Ext.field.Slider",
                     "reference": {
                         "name": "items",
                         "type": "array"
@@ -557,29 +556,29 @@
             ]
         },
         {
-            "type": "toolbar",
+            "type": "Ext.Toolbar",
             "reference": {
                 "name": "items",
                 "type": "array"
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "MyToolbar",
-                "docked": "bottom"
+                "docked": "bottom",
+                "designer|userClassName": "MyToolbar"
             },
             "designerId": "a0b36aaf-f52a-458d-b937-9116a334cf27",
             "cn": [
                 {
-                    "type": "button",
+                    "type": "Ext.Button",
                     "reference": {
                         "name": "items",
                         "type": "array"
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "designer|userClassName": "MyButton2",
                         "itemId": "loadModelBtn",
                         "ui": "round",
+                        "designer|userClassName": "MyButton2",
                         "text": "Load Model"
                     },
                     "designerId": "6d69f301-d6eb-44b4-bdee-85c0929af078",
@@ -632,7 +631,7 @@
                     ]
                 },
                 {
-                    "type": "spacer",
+                    "type": "Ext.Spacer",
                     "reference": {
                         "name": "items",
                         "type": "array"
@@ -644,15 +643,15 @@
                     "designerId": "83a6b8ca-c1a5-4e72-894f-965d19d456ef"
                 },
                 {
-                    "type": "button",
+                    "type": "Ext.Button",
                     "reference": {
                         "name": "items",
                         "type": "array"
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "designer|userClassName": "MyButton3",
                         "itemId": "resetBtn",
+                        "designer|userClassName": "MyButton3",
                         "text": "Reset"
                     },
                     "designerId": "ba61a2c7-ec47-452d-9f92-5d940fb4225f",
@@ -677,16 +676,16 @@
                     ]
                 },
                 {
-                    "type": "button",
+                    "type": "Ext.Button",
                     "reference": {
                         "name": "items",
                         "type": "array"
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "designer|userClassName": "MyButton4",
                         "itemId": "saveBtn",
                         "ui": "confirm",
+                        "designer|userClassName": "MyButton4",
                         "text": "Save"
                     },
                     "designerId": "4af18835-3ce6-49f3-81f5-aaeb8bdb81f6",

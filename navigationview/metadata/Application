@@ -1,5 +1,5 @@
 {
-    "type": "application",
+    "type": "Ext.app.Application",
     "reference": {
         "name": "items",
         "type": "array"
@@ -12,11 +12,10 @@
             "Step3Panel",
             "MainNav"
         ],
-        "name": "MyApp",
         "controllers": [
             "MainNavController"
-        ]
+        ],
+        "name": "MyApp"
     },
-    "id": "ExtBox1-ext-gen11396",
     "designerId": "application"
 }
