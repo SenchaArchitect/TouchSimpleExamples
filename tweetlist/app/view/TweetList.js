@@ -20,6 +20,8 @@ Ext.define('Tweets.view.TweetList', {
         disableSelection: true,
         emptyText: 'No tweets found matching that search.',
         store: 'TweetStore',
+        useSimpleItems: false,
+        variableHeights: true,
         itemTpl: [
             '<img src="{profile_image_url}" />',
             '<div class="tweet">',
