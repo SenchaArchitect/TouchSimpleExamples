@@ -6,12 +6,12 @@
     },
     "codeClass": null,
     "userConfig": {
-        "ui": "light",
-        "designer|userClassName": "MyTabPanel",
-        "designer|initialView": true,
         "defaults": [
             "{scrollable: true}"
-        ]
+        ],
+        "designer|initialView": true,
+        "designer|userClassName": "MyTabPanel",
+        "ui": "light"
     },
     "designerId": "ddedca87-ade6-4cfb-b9b5-9b14fb6c9b09",
     "cn": [
@@ -23,8 +23,7 @@
             },
             "codeClass": null,
             "userConfig": {
-                "docked": "bottom",
-                "designer|userClassName": "MyTabBar"
+                "docked": "bottom"
             },
             "designerId": "72931c11-7101-464e-958f-c700ef2f5570"
         },
@@ -36,13 +35,12 @@
             },
             "codeClass": null,
             "userConfig": {
-                "title": "About",
-                "iconCls": "info",
                 "cls": [
                     "card1"
                 ],
                 "html": "<h1>Bottom Tabs</h1><p>Docking tabs to the bottom will automatically change their style. The tabs below are type=\"light\", though the standard type is dark. Badges (like the 4 &amp; Long title below) can be added by setting <code>badgeText</code> when creating a tab/card or by using <code>setBadge()</code> on the tab later.</p>",
-                "designer|userClassName": "MyContainer"
+                "iconCls": "info",
+                "title": "About"
             },
             "designerId": "6f312e2c-efd6-4fd9-9df4-e924732498f5"
         },
@@ -54,14 +52,13 @@
             },
             "codeClass": null,
             "userConfig": {
-                "title": "Favorites",
                 "badgeText": "4",
-                "iconCls": "favorites",
                 "cls": [
                     "card2"
                 ],
                 "html": "<h1>Favorites Card</h1>",
-                "designer|userClassName": "MyContainer1"
+                "iconCls": "favorites",
+                "title": "Favorites"
             },
             "designerId": "f74051b0-d059-4e5b-ac14-e7c1e4326f9a"
         },
@@ -73,14 +70,13 @@
             },
             "codeClass": null,
             "userConfig": {
-                "title": "Downloads",
                 "badgeText": "Text can go here too, but it will be cut off if it is too long.",
-                "iconCls": "download",
                 "cls": [
                     "card3"
                 ],
                 "html": "<h1>Downloads Card</h1>",
-                "designer|userClassName": "MyContainer2"
+                "iconCls": "download",
+                "title": "Downloads"
             },
             "designerId": "66bad555-8ab3-4f73-b413-dc4360dbbf20"
         },
@@ -92,13 +88,12 @@
             },
             "codeClass": null,
             "userConfig": {
-                "title": "Settings",
-                "iconCls": "settings",
                 "cls": [
                     "card4"
                 ],
                 "html": "<h1>Settings Card</h1>",
-                "designer|userClassName": "MyContainer3"
+                "iconCls": "settings",
+                "title": "Settings"
             },
             "designerId": "60f21f17-c92c-4297-9fb0-cab6273a42a2"
         },
@@ -110,13 +105,12 @@
             },
             "codeClass": null,
             "userConfig": {
-                "title": "User",
-                "iconCls": "user",
                 "cls": [
                     "card5"
                 ],
                 "html": "<h1>User Card</h1>",
-                "designer|userClassName": "MyContainer4"
+                "iconCls": "user",
+                "title": "User"
             },
             "designerId": "b428ee16-5f11-49d8-b4a2-a1caca990dcf"
         }
