@@ -10,13 +10,13 @@
             "User",
             "Ranks"
         ],
+        "name": "Info",
         "stores": [
             "RankStore"
         ],
         "views": [
             "Form"
-        ],
-        "name": "Info"
+        ]
     },
     "designerId": "application"
 }

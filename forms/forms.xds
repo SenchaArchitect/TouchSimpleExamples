@@ -1,6 +1,7 @@
 {
     "name": "forms",
     "settings": {
+        "cmd": {},
         "urlPrefix": "http://localhost/",
         "spacesToIndent": 4,
         "exportPath": "",
@@ -13,53 +14,22 @@
         "senchaIoPath": "http://extjs.cachefly.net/designer/IO/",
         "instantiateStore": true,
         "saveOnDeploy": false,
-        "appName": "MyApp"
-    },
-    "xdsVersion": "2.2.0",
-    "xdsBuild": 840,
-    "schemaVersion": 1,
-    "upgradeVersion": 210000000499,
-    "framework": "touch21",
-    "topInstanceFileMap": {
-        "47aef567-0489-4228-879f-064d9bb57229": {
-            "paths": [
-                "metadata/view/Form",
-                "app/view/override/Form.js",
-                "app/view/Form.js"
-            ],
-            "className": "Form"
-        },
-        "a1c2bdb1-5756-4f8c-a431-20b8012c7566": {
-            "paths": [
-                "metadata/store/RankStore",
-                "app/store/override/RankStore.js",
-                "app/store/RankStore.js"
-            ],
-            "className": "RankStore"
-        },
-        "14ed1561-9afd-4c3f-b3c7-b25b5a97ed31": {
-            "paths": [
-                "metadata/model/User",
-                "app/model/override/User.js",
-                "app/model/User.js"
-            ],
-            "className": "User"
-        },
-        "eb2b1758-45bd-4c7a-8ded-629edb01f279": {
-            "paths": [
-                "metadata/model/Ranks",
-                "app/model/override/Ranks.js",
-                "app/model/Ranks.js"
-            ],
-            "className": "Ranks"
-        },
-        "8a363e59-b2b9-4953-b1c7-996efe322b4d": {
-            "paths": [
-                "metadata/resource/Library"
-            ],
-            "className": "Library"
+        "appName": "MyApp",
+        "canvasControls": {
+            "viewportSize": {
+                "name": "iPhone",
+                "builtIn": true,
+                "height": 480,
+                "width": 320
+            },
+            "viewportOrientation": "portrait"
         }
     },
+    "xdsVersion": "3.0.0",
+    "xdsBuild": 0,
+    "schemaVersion": 1,
+    "upgradeVersion": 300000000001,
+    "framework": "touch21",
     "viewOrderMap": {
         "view": [
             "47aef567-0489-4228-879f-064d9bb57229"

@@ -6,9 +6,9 @@
     },
     "codeClass": null,
     "userConfig": {
-        "itemId": null,
-        "designer|userClassName": "Form",
         "designer|initialView": true,
+        "designer|userClassName": "Form",
+        "itemId": null,
         "url": "postUser.php"
     },
     "designerId": "47aef567-0489-4228-879f-064d9bb57229",
@@ -21,7 +21,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "MyFieldSet",
                 "defaults": [
                     "{required: true, labelAlign: 'left', labelWidth: '40%'}"
                 ],
@@ -38,7 +37,6 @@
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "designer|userClassName": "MyTextField",
                         "label": "Name",
                         "name": "name"
                     },
@@ -52,7 +50,6 @@
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "designer|userClassName": "MyPasswordField",
                         "clearIcon": false,
                         "label": "Password",
                         "name": "password"
@@ -68,7 +65,6 @@
                     "codeClass": null,
                     "userConfig": {
                         "disabled": true,
-                        "designer|userClassName": "MyTextField2",
                         "label": "Disabled",
                         "name": "disabled"
                     },
@@ -82,7 +78,6 @@
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "designer|userClassName": "MyEmailField",
                         "label": "Email",
                         "name": "email",
                         "placeHolder": "email@example.com"
@@ -97,7 +92,6 @@
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "designer|userClassName": "MyUrlField",
                         "label": "Url",
                         "name": "url",
                         "placeHolder": "http://example.com"
@@ -113,7 +107,6 @@
                     "codeClass": null,
                     "userConfig": {
                         "height": null,
-                        "designer|userClassName": "MyCheckbox",
                         "label": "Cool",
                         "name": "cool"
                     },
@@ -128,7 +121,6 @@
                     "codeClass": null,
                     "userConfig": {
                         "id": "spinner",
-                        "designer|userClassName": "MySpinnerField",
                         "label": "Spinner",
                         "name": "spinner"
                     },
@@ -142,10 +134,9 @@
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "designer|userClassName": "MySelectField",
+                        "displayField": "title",
                         "label": "Rank",
                         "name": "rank",
-                        "displayField": "title",
                         "store": "RankStore",
                         "valueField": "rank"
                     },
@@ -159,7 +150,6 @@
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "designer|userClassName": "MyDateField",
                         "label": "Field",
                         "name": "date",
                         "placeHolder": "mm/dd/yyyy"
@@ -173,9 +163,6 @@
                                 "type": "object"
                             },
                             "codeClass": null,
-                            "userConfig": {
-                                "designer|userClassName": "MyDatePicker"
-                            },
                             "designerId": "4d464612-ccac-4585-9acf-29d47fb2181c",
                             "cn": [
                                 {
@@ -186,7 +173,6 @@
                                     },
                                     "codeClass": null,
                                     "userConfig": {
-                                        "designer|userClassName": "MyButton",
                                         "text": "Done"
                                     },
                                     "designerId": "fccbc3f5-b19f-481a-af5b-1645e8e843e1"
@@ -199,7 +185,6 @@
                                     },
                                     "codeClass": null,
                                     "userConfig": {
-                                        "designer|userClassName": "MyButton1",
                                         "text": "Cancel"
                                     },
                                     "designerId": "58f99422-483d-4d00-a884-8c819d08eb10"
@@ -216,7 +201,6 @@
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "designer|userClassName": "MyHiddenField",
                         "name": "hidden"
                     },
                     "designerId": "4979fb73-178d-4d5c-95c9-9795332c75a7"
@@ -229,11 +213,10 @@
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "designer|userClassName": "MyTextArea",
                         "label": "Bio",
-                        "name": "bio",
                         "maxLength": 60,
-                        "maxRows": 10
+                        "maxRows": 10,
+                        "name": "bio"
                     },
                     "designerId": "8d6679a2-0154-408e-b2aa-80f5d8d858ef"
                 },
@@ -245,7 +228,6 @@
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "designer|userClassName": "MySliderField",
                         "label": "Height",
                         "name": "height"
                     },
@@ -259,7 +241,6 @@
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "designer|userClassName": "MyToggleField",
                         "label": "Security Mode",
                         "name": "enable"
                     },
@@ -273,7 +254,6 @@
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "designer|userClassName": "MyRadioButton2",
                         "label": "Red Team",
                         "name": "team",
                         "value": "redteam"
@@ -288,7 +268,6 @@
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "designer|userClassName": "MyRadioButton3",
                         "label": "Blue Team",
                         "name": "team",
                         "value": "blueteam"
@@ -305,7 +284,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "MyFieldSet1",
                 "title": "Favorite color"
             },
             "designerId": "40ce8db3-a6bb-490a-9087-632a514da90d",
@@ -318,7 +296,6 @@
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "designer|userClassName": "MyRadioButton",
                         "label": "Red",
                         "name": "color",
                         "value": "red"
@@ -333,11 +310,10 @@
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "designer|userClassName": "MyRadioButton1",
+                        "checked": true,
                         "label": "Green",
                         "name": "color",
-                        "value": "green",
-                        "checked": true
+                        "value": "green"
                     },
                     "designerId": "54690991-84ea-4f65-ae5b-95a29ca6bf86"
                 }
@@ -351,7 +327,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "MyFieldSet2",
                 "title": "HTML5"
             },
             "designerId": "92a46938-cba8-469a-99c0-2831f81350dc",
@@ -364,7 +339,6 @@
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "designer|userClassName": "MyNumberField",
                         "label": "Field",
                         "name": "number"
                     },
@@ -378,7 +352,6 @@
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "designer|userClassName": "MyEmailField1",
                         "label": "Field",
                         "name": "email2",
                         "placeHolder": "email@example.com"
@@ -393,7 +366,6 @@
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "designer|userClassName": "MyUrlField1",
                         "label": "Field",
                         "name": "url2",
                         "placeHolder": "http://example.com"
@@ -410,7 +382,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "MyFieldSet3",
                 "title": "Single Select"
             },
             "designerId": "efabc934-2d9d-4ec6-8552-57fdfdc93446",
@@ -423,10 +394,14 @@
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "designer|userClassName": "MySelectField1",
                         "label": null,
                         "name": "options",
-                        "options": "[\n                                {text: 'This is just a big select with text that is overflowing', value: '1'},\n                                {text: 'Another item', value: '2'}\n                            ]"
+                        "options": [
+                            "[",
+                            "                                {text: 'This is just a big select with text that is overflowing', value: '1'},",
+                            "                                {text: 'Another item', value: '2'}",
+                            "                            ]"
+                        ]
                     },
                     "designerId": "493f30c9-11bf-48db-a3d4-38b2a5bc0818"
                 }
@@ -440,7 +415,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "MyFieldSet3",
                 "title": "Single Text"
             },
             "designerId": "e5de5570-35f9-4091-9051-57ff64eee336",
@@ -453,7 +427,6 @@
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "designer|userClassName": "MyTextField7",
                         "label": null,
                         "name": "single_text"
                     },
@@ -469,7 +442,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "MyFieldSet3",
                 "title": "Single Toggle"
             },
             "designerId": "cb9a5db5-ec97-471a-999a-73d87dc1d7e7",
@@ -482,7 +454,6 @@
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "designer|userClassName": "MyToggleField1",
                         "label": null,
                         "value": 1
                     },
@@ -498,7 +469,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "MyFieldSet3",
                 "title": "Single Slider"
             },
             "designerId": "36f9f93b-288f-45df-ba5b-6777d6a4431a",
@@ -511,7 +481,6 @@
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "designer|userClassName": "MySliderField1",
                         "label": null,
                         "name": "single_slider",
                         "value": [
@@ -530,7 +499,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "MyFieldSet3",
                 "title": "Multiple Slider Thumbs"
             },
             "designerId": "2c0df208-a154-48eb-91a5-ccc7cf540668",
@@ -543,7 +511,6 @@
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "designer|userClassName": "MySliderField1",
                         "label": null,
                         "name": "multiple_slider",
                         "value": [
@@ -563,8 +530,7 @@
             },
             "codeClass": null,
             "userConfig": {
-                "docked": "bottom",
-                "designer|userClassName": "MyToolbar"
+                "docked": "bottom"
             },
             "designerId": "a0b36aaf-f52a-458d-b937-9116a334cf27",
             "cn": [
@@ -577,9 +543,8 @@
                     "codeClass": null,
                     "userConfig": {
                         "itemId": "loadModelBtn",
-                        "ui": "round",
-                        "designer|userClassName": "MyButton2",
-                        "text": "Load Model"
+                        "text": "Load Model",
+                        "ui": "round"
                     },
                     "designerId": "6d69f301-d6eb-44b4-bdee-85c0929af078",
                     "cn": [
@@ -591,7 +556,6 @@
                             },
                             "codeClass": null,
                             "userConfig": {
-                                "designer|userClassName": "onLoadModelBtnTap",
                                 "fn": "onLoadModelBtnTap",
                                 "implHandler": [
                                     "if (!Info.user) {",
@@ -637,9 +601,6 @@
                         "type": "array"
                     },
                     "codeClass": null,
-                    "userConfig": {
-                        "designer|userClassName": "MySpacer"
-                    },
                     "designerId": "83a6b8ca-c1a5-4e72-894f-965d19d456ef"
                 },
                 {
@@ -651,7 +612,6 @@
                     "codeClass": null,
                     "userConfig": {
                         "itemId": "resetBtn",
-                        "designer|userClassName": "MyButton3",
                         "text": "Reset"
                     },
                     "designerId": "ba61a2c7-ec47-452d-9f92-5d940fb4225f",
@@ -664,7 +624,6 @@
                             },
                             "codeClass": null,
                             "userConfig": {
-                                "designer|userClassName": "onResetBtnTap",
                                 "fn": "onResetBtnTap",
                                 "implHandler": [
                                     "        this.reset();"
@@ -684,9 +643,8 @@
                     "codeClass": null,
                     "userConfig": {
                         "itemId": "saveBtn",
-                        "ui": "confirm",
-                        "designer|userClassName": "MyButton4",
-                        "text": "Save"
+                        "text": "Save",
+                        "ui": "confirm"
                     },
                     "designerId": "4af18835-3ce6-49f3-81f5-aaeb8bdb81f6",
                     "cn": [
@@ -698,7 +656,6 @@
                             },
                             "codeClass": null,
                             "userConfig": {
-                                "designer|userClassName": "onSaveBtnTap",
                                 "fn": "onSaveBtnTap",
                                 "implHandler": [
                                     "if (Info.user) {",
@@ -727,7 +684,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "onMyformpanelSubmit",
                 "fn": "onMyformpanelSubmit",
                 "implHandler": [
                     "        console.log('success', Ext.toArray(arguments));"
@@ -744,7 +700,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "onMyformpanelException",
                 "fn": "onMyformpanelException",
                 "implHandler": [
                     "        console.log('failure', Ext.toArray(arguments));"
