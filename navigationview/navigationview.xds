@@ -29,7 +29,7 @@
     "xdsBuild": 0,
     "schemaVersion": 1,
     "upgradeVersion": 300000000001,
-    "framework": "touch21",
+    "framework": "touch23",
     "viewOrderMap": {
         "view": [
             "f2e0179b-4596-47ef-942a-29b67dd5987a",
