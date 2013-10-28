@@ -35,7 +35,6 @@
                     "codeClass": null,
                     "userConfig": {
                         "iconCls": "settings",
-                        "iconMask": true,
                         "itemId": "settingsButton",
                         "text": null
                     },
@@ -81,7 +80,6 @@
                     "codeClass": null,
                     "userConfig": {
                         "iconCls": "reply",
-                        "iconMask": true,
                         "itemId": "replyButton",
                         "text": null
                     },
