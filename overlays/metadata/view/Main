@@ -6,10 +6,10 @@
     },
     "codeClass": null,
     "userConfig": {
-        "padding": 20,
-        "designer|userClassName": "Main",
         "designer|initialView": true,
-        "layout": "vbox"
+        "designer|userClassName": "Main",
+        "layout": "vbox",
+        "padding": 20
     },
     "designerId": "281e6308-e453-443c-ba4e-acb143a7dc36",
     "cn": [
@@ -22,7 +22,6 @@
             "codeClass": null,
             "userConfig": {
                 "docked": "top",
-                "designer|userClassName": "MyToolbar",
                 "title": "Overlays Demo"
             },
             "designerId": "d66eb8a9-dd6e-4af7-99b5-ad4ac6652433",
@@ -35,10 +34,9 @@
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "itemId": "settingsButton",
-                        "designer|userClassName": "MyButton",
                         "iconCls": "settings",
                         "iconMask": true,
+                        "itemId": "settingsButton",
                         "text": null
                     },
                     "designerId": "d6defdb2-d4d2-4564-b5f1-57701c37c0fc",
@@ -51,7 +49,6 @@
                             },
                             "codeClass": null,
                             "userConfig": {
-                                "designer|userClassName": "onSettingsButtonTap",
                                 "fn": "onSettingsButtonTap",
                                 "implHandler": [
                                     "var settings = button.settingsPanel;",
@@ -73,9 +70,6 @@
                         "type": "array"
                     },
                     "codeClass": null,
-                    "userConfig": {
-                        "designer|userClassName": "MySpacer"
-                    },
                     "designerId": "3f193f42-04da-48d4-bd2e-a5cdd92ecbd9"
                 },
                 {
@@ -86,10 +80,9 @@
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "itemId": "replyButton",
-                        "designer|userClassName": "MyButton1",
                         "iconCls": "reply",
                         "iconMask": true,
+                        "itemId": "replyButton",
                         "text": null
                     },
                     "designerId": "2ee25f74-3f3c-49bb-97f8-bd1f7930eb2a",
@@ -102,7 +95,6 @@
                             },
                             "codeClass": null,
                             "userConfig": {
-                                "designer|userClassName": "onReplyButtonTap",
                                 "fn": "onReplyButtonTap",
                                 "implHandler": [
                                     "var sheet = button.actionSheet;",
@@ -128,7 +120,6 @@
             "codeClass": null,
             "userConfig": {
                 "itemId": "mybutton2",
-                "designer|userClassName": "MyButton2",
                 "text": "Choose Two Numbers"
             },
             "designerId": "340908e7-1b9a-462b-a866-b484c4c14673",
@@ -141,7 +132,6 @@
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "designer|userClassName": "onMybutton2Tap",
                         "fn": "onMybutton2Tap",
                         "implHandler": [
                             "var picker = button.numberPicker;",
@@ -183,9 +173,6 @@
                 "type": "array"
             },
             "codeClass": null,
-            "userConfig": {
-                "designer|userClassName": "MySpacer1"
-            },
             "designerId": "96ffca49-0673-4cd0-976a-e34383f7002e"
         },
         {
@@ -201,8 +188,7 @@
                 "itemId": "description",
                 "margin": null,
                 "style": "color:#999",
-                "ui": null,
-                "designer|userClassName": "MyComponent"
+                "ui": null
             },
             "designerId": "02eff3f5-ee39-4bbb-98cb-5095bbb6d6f7"
         }

@@ -7,11 +7,11 @@
     "codeClass": null,
     "userConfig": {
         "centered": null,
-        "width": 240,
-        "designer|userClassName": "SettingsPanel",
         "designer|userAlias": "settings",
+        "designer|userClassName": "SettingsPanel",
         "hideOnMaskTap": true,
-        "modal": true
+        "modal": true,
+        "width": 240
     },
     "designerId": "bd7651f5-ac9f-4259-911c-9f7b3af04c17",
     "cn": [
@@ -23,7 +23,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "MyCheckbox",
                 "label": "Field"
             },
             "designerId": "41458950-7a6b-4d22-8151-433abbbf0777"
@@ -36,7 +35,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "MyCheckbox1",
                 "label": "Field"
             },
             "designerId": "ab3f99c3-f24c-4063-a0f2-218dc618d0ba"
@@ -49,7 +47,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "MyCheckbox2",
                 "label": "Field"
             },
             "designerId": "1047195d-48e5-4d0a-9371-1541f2d40d8c"
@@ -62,7 +59,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "MyCheckbox3",
                 "label": "Field"
             },
             "designerId": "dde1d437-740c-4ea3-a9d0-513e01b79beb"
@@ -75,7 +71,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "MyCheckbox4",
                 "label": "Field"
             },
             "designerId": "37e610eb-197a-40eb-ab58-4a00f95bb682"

@@ -1,6 +1,7 @@
 {
     "name": "overlays",
     "settings": {
+        "cmd": {},
         "urlPrefix": "",
         "spacesToIndent": 4,
         "exportPath": "",
@@ -13,53 +14,22 @@
         "senchaIoPath": "http://extjs.cachefly.net/designer/IO/",
         "instantiateStore": true,
         "saveOnDeploy": false,
-        "appName": "MyApp"
-    },
-    "xdsVersion": "2.2.0",
-    "xdsBuild": 840,
-    "schemaVersion": 1,
-    "upgradeVersion": 210000000499,
-    "framework": "touch21",
-    "topInstanceFileMap": {
-        "281e6308-e453-443c-ba4e-acb143a7dc36": {
-            "paths": [
-                "metadata/view/Main",
-                "app/view/override/Main.js",
-                "app/view/Main.js"
-            ],
-            "className": "Main"
-        },
-        "bd7651f5-ac9f-4259-911c-9f7b3af04c17": {
-            "paths": [
-                "metadata/view/SettingsPanel",
-                "app/view/override/SettingsPanel.js",
-                "app/view/SettingsPanel.js"
-            ],
-            "className": "SettingsPanel"
-        },
-        "2bdc4a32-bcda-47fd-95a9-07446a0d434b": {
-            "paths": [
-                "metadata/view/ReplyOptions",
-                "app/view/override/ReplyOptions.js",
-                "app/view/ReplyOptions.js"
-            ],
-            "className": "ReplyOptions"
-        },
-        "fbc194ea-09e6-4d07-afef-da0731ce4c57": {
-            "paths": [
-                "metadata/view/NumbersPicker",
-                "app/view/override/NumbersPicker.js",
-                "app/view/NumbersPicker.js"
-            ],
-            "className": "NumbersPicker"
-        },
-        "de29e5a6-bd08-42a3-b09f-66170da71af4": {
-            "paths": [
-                "metadata/resource/Library"
-            ],
-            "className": "Library"
+        "appName": "MyApp",
+        "canvasControls": {
+            "viewportSize": {
+                "name": "iPhone",
+                "builtIn": true,
+                "height": 480,
+                "width": 320
+            },
+            "viewportOrientation": "portrait"
         }
     },
+    "xdsVersion": "3.0.0",
+    "xdsBuild": 0,
+    "schemaVersion": 1,
+    "upgradeVersion": 300000000001,
+    "framework": "touch21",
     "viewOrderMap": {
         "view": [
             "281e6308-e453-443c-ba4e-acb143a7dc36",
