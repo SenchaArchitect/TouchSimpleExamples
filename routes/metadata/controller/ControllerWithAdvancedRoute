@@ -18,16 +18,15 @@
             },
             "codeClass": null,
             "userConfig": {
-                "url": "folder/:folder/file/:id",
-                "designer|userClassName": "showFile",
-                "fn": "showFile",
                 "designer|params": [
                     "folder",
                     "id"
                 ],
+                "fn": "showFile",
                 "implHandler": [
                     "alert('Route was handled by showFile(' + folder + ', ' + id + ')');"
-                ]
+                ],
+                "url": "folder/:folder/file/:id"
             },
             "designerId": "d2b20497-9266-4c31-80ca-e387a779b960",
             "cn": [
@@ -39,9 +38,8 @@
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "designer|userClassName": "RouteCondition",
-                        "param": "folder",
-                        "condition": "[a-zA-Z]+"
+                        "condition": "[a-zA-Z]+",
+                        "param": "folder"
                     },
                     "designerId": "77b9c709-4d22-4d6e-ad3a-31bc1a761da6"
                 }

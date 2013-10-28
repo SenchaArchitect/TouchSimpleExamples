@@ -6,14 +6,14 @@
     },
     "codeClass": null,
     "userConfig": {
-        "views": [
-            "MyContainer"
-        ],
         "controllers": [
             "ControllerWithAdvancedRoute",
             "ControllerWithSimpleRoute"
         ],
-        "name": "MyApp"
+        "name": "MyApp",
+        "views": [
+            "MyContainer"
+        ]
     },
     "designerId": "application",
     "cn": [
@@ -25,7 +25,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "launch",
                 "fn": "launch",
                 "implHandler": [
                     ""
