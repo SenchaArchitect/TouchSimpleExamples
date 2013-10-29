@@ -1,6 +1,6 @@
 .architect
 .sencha
-ext
+touch
 build.xml
 build
 .idea
