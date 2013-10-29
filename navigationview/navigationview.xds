@@ -1,6 +1,7 @@
 {
     "name": "navigationview",
     "settings": {
+        "cmd": {},
         "urlPrefix": "http://localhost/TouchSimpleExamples/navigationview/",
         "spacesToIndent": 4,
         "exportPath": "",
@@ -13,61 +14,22 @@
         "senchaIoPath": "http://extjs.cachefly.net/designer/IO/",
         "instantiateStore": true,
         "saveOnDeploy": false,
-        "appName": "MyApp"
-    },
-    "xdsVersion": "2.2.0",
-    "xdsBuild": 840,
-    "schemaVersion": 1,
-    "upgradeVersion": 210000000499,
-    "framework": "touch21",
-    "topInstanceFileMap": {
-        "f2e0179b-4596-47ef-942a-29b67dd5987a": {
-            "paths": [
-                "metadata/view/Step1Panel",
-                "app/view/override/Step1Panel.js",
-                "app/view/Step1Panel.js"
-            ],
-            "className": "Step1Panel"
-        },
-        "2f8f8011-b4fc-43f8-8f35-2318b3dd02bf": {
-            "paths": [
-                "metadata/view/Step2Panel",
-                "app/view/override/Step2Panel.js",
-                "app/view/Step2Panel.js"
-            ],
-            "className": "Step2Panel"
-        },
-        "59837de6-d1e1-4301-abd7-e5769a45fd27": {
-            "paths": [
-                "metadata/view/Step3Panel",
-                "app/view/override/Step3Panel.js",
-                "app/view/Step3Panel.js"
-            ],
-            "className": "Step3Panel"
-        },
-        "8fbdeb24-48f0-4623-8aeb-4e33d2eb87b0": {
-            "paths": [
-                "metadata/view/MainNav",
-                "app/view/override/MainNav.js",
-                "app/view/MainNav.js"
-            ],
-            "className": "MainNav"
-        },
-        "81f48407-d0cc-485d-b3bb-9c9b2f641a43": {
-            "paths": [
-                "metadata/controller/MainNavController",
-                "app/controller/override/MainNavController.js",
-                "app/controller/MainNavController.js"
-            ],
-            "className": "MainNavController"
-        },
-        "3dcede1e-3e3d-40f7-a56c-d99c029a6870": {
-            "paths": [
-                "metadata/resource/Library"
-            ],
-            "className": "Library"
+        "appName": "MyApp",
+        "canvasControls": {
+            "viewportSize": {
+                "name": "iPhone",
+                "builtIn": true,
+                "height": 480,
+                "width": 320
+            },
+            "viewportOrientation": "portrait"
         }
     },
+    "xdsVersion": "3.0.0",
+    "xdsBuild": 0,
+    "schemaVersion": 1,
+    "upgradeVersion": 300000000001,
+    "framework": "touch23",
     "viewOrderMap": {
         "view": [
             "f2e0179b-4596-47ef-942a-29b67dd5987a",

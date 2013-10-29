@@ -6,10 +6,17 @@
     },
     "codeClass": null,
     "userConfig": {
-        "data": "[\n                { rank: 'master', title: 'Master'},\n                { rank: 'padawan', title: 'Student'},\n                { rank: 'teacher', title: 'Instructor'},\n                { rank: 'aid', title: 'Assistant'}\n            ]",
+        "data": [
+            "[",
+            "                { rank: 'master', title: 'Master'},",
+            "                { rank: 'padawan', title: 'Student'},",
+            "                { rank: 'teacher', title: 'Instructor'},",
+            "                { rank: 'aid', title: 'Assistant'}",
+            "            ]"
+        ],
+        "designer|userClassName": "RankStore",
         "model": "Ranks",
-        "storeId": "RankStore",
-        "designer|userClassName": "RankStore"
+        "storeId": "RankStore"
     },
     "designerId": "a1c2bdb1-5756-4f8c-a431-20b8012c7566"
 }

@@ -6,8 +6,8 @@
     },
     "codeClass": null,
     "userConfig": {
-        "designer|userClassName": "Step2Panel",
-        "designer|userAlias": "step2"
+        "designer|userAlias": "step2",
+        "designer|userClassName": "Step2Panel"
     },
     "designerId": "2f8f8011-b4fc-43f8-8f35-2318b3dd02bf",
     "cn": [
@@ -19,7 +19,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "MyFieldSet",
                 "title": "Enter another number"
             },
             "designerId": "9647ecee-4587-4d56-a72c-51c256313ace",
@@ -32,7 +31,6 @@
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "designer|userClassName": "MyNumberField",
                         "label": null,
                         "name": "number2"
                     },
@@ -48,9 +46,8 @@
             },
             "codeClass": null,
             "userConfig": {
-                "ui": "forward",
-                "designer|userClassName": "MyButton",
-                "text": "Next"
+                "text": "Next",
+                "ui": "forward"
             },
             "designerId": "7090a782-d631-4ce4-994d-230e48a6bf82"
         }

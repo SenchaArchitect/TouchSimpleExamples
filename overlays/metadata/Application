@@ -6,13 +6,13 @@
     },
     "codeClass": null,
     "userConfig": {
+        "name": "MyApp",
         "views": [
             "Main",
             "SettingsPanel",
             "ReplyOptions",
             "NumbersPicker"
-        ],
-        "name": "MyApp"
+        ]
     },
     "designerId": "application"
 }

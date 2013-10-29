@@ -1,6 +1,7 @@
 {
     "name": "tabs2",
     "settings": {
+        "cmd": {},
         "urlPrefix": "http://localhost/",
         "spacesToIndent": 4,
         "exportPath": "",
@@ -13,35 +14,22 @@
         "senchaIoPath": "http://extjs.cachefly.net/designer/IO/",
         "instantiateStore": true,
         "saveOnDeploy": false,
-        "appName": "MyApp"
-    },
-    "xdsVersion": "2.2.0",
-    "xdsBuild": 840,
-    "schemaVersion": 1,
-    "upgradeVersion": 210000000499,
-    "framework": "touch21",
-    "topInstanceFileMap": {
-        "ddedca87-ade6-4cfb-b9b5-9b14fb6c9b09": {
-            "paths": [
-                "metadata/view/MyTabPanel",
-                "app/view/override/MyTabPanel.js",
-                "app/view/MyTabPanel.js"
-            ],
-            "className": "MyTabPanel"
-        },
-        "060950e7-8c71-4de5-8433-b233981c439f": {
-            "paths": [
-                "metadata/resource/css"
-            ],
-            "className": "css"
-        },
-        "9abecb82-6e90-4cc4-9b1a-622fa72c7ad3": {
-            "paths": [
-                "metadata/resource/Library"
-            ],
-            "className": "Library"
+        "appName": "MyApp",
+        "canvasControls": {
+            "viewportSize": {
+                "name": "iPhone",
+                "builtIn": true,
+                "height": 480,
+                "width": 320
+            },
+            "viewportOrientation": "portrait"
         }
     },
+    "xdsVersion": "3.0.0",
+    "xdsBuild": 0,
+    "schemaVersion": 1,
+    "upgradeVersion": 300000000001,
+    "framework": "touch23",
     "viewOrderMap": {
         "view": [
             "ddedca87-ade6-4cfb-b9b5-9b14fb6c9b09"

@@ -6,8 +6,8 @@
     },
     "codeClass": null,
     "userConfig": {
-        "designer|userClassName": "Step1Panel",
-        "designer|userAlias": "step1"
+        "designer|userAlias": "step1",
+        "designer|userClassName": "Step1Panel"
     },
     "designerId": "f2e0179b-4596-47ef-942a-29b67dd5987a",
     "cn": [
@@ -19,7 +19,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "MyFieldSet",
                 "title": "Enter a number"
             },
             "designerId": "67baedef-6a86-4065-add5-84c8995eebbf",
@@ -32,7 +31,6 @@
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "designer|userClassName": "MyNumberField",
                         "label": null,
                         "name": "number1"
                     },
@@ -48,9 +46,8 @@
             },
             "codeClass": null,
             "userConfig": {
-                "ui": "forward",
-                "designer|userClassName": "MyButton",
-                "text": "Next"
+                "text": "Next",
+                "ui": "forward"
             },
             "designerId": "f2e1577e-cc81-4099-9744-d72a190e3cbe"
         }

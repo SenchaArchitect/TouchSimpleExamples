@@ -18,7 +18,8 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "onStep1SubmitTap",
+                "designer|controlQuery": "step1 button",
+                "designer|targetType": "Ext.Button",
                 "fn": "onStep1SubmitTap",
                 "implHandler": [
                     "button.up('navigationview').push({",
@@ -26,9 +27,7 @@
                     "    title: 'Step 2'",
                     "});"
                 ],
-                "name": "tap",
-                "designer|targetType": "Ext.Button",
-                "designer|controlQuery": "step1 button"
+                "name": "tap"
             },
             "designerId": "40b17432-dc58-48a1-980c-ecb740fc51be"
         },
@@ -40,7 +39,8 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "onStep2ButtonTap",
+                "designer|controlQuery": "step2 button",
+                "designer|targetType": "Ext.Button",
                 "fn": "onStep2ButtonTap",
                 "implHandler": [
                     "button.up('navigationview').push({",
@@ -48,9 +48,7 @@
                     "    title: 'Step 3'",
                     "});"
                 ],
-                "name": "tap",
-                "designer|targetType": "Ext.Button",
-                "designer|controlQuery": "step2 button"
+                "name": "tap"
             },
             "designerId": "81a2195b-a80e-4001-b96b-9f1064054482"
         },
@@ -62,7 +60,8 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "onStep3ButtonTap",
+                "designer|controlQuery": "step3 button",
+                "designer|targetType": "Ext.Button",
                 "fn": "onStep3ButtonTap",
                 "implHandler": [
                     "var mainNav = button.up('navigationview'),",
@@ -88,9 +87,7 @@
                     "",
                     "Ext.Msg.alert('Your result is: ' + result);"
                 ],
-                "name": "tap",
-                "designer|targetType": "Ext.Button",
-                "designer|controlQuery": "step3 button"
+                "name": "tap"
             },
             "designerId": "d1039a6b-1e53-41f7-a49e-6e48ce6e47bc"
         }

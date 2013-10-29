@@ -6,16 +6,16 @@
     },
     "codeClass": null,
     "userConfig": {
+        "controllers": [
+            "MainNavController"
+        ],
+        "name": "MyApp",
         "views": [
             "Step1Panel",
             "Step2Panel",
             "Step3Panel",
             "MainNav"
-        ],
-        "controllers": [
-            "MainNavController"
-        ],
-        "name": "MyApp"
+        ]
     },
     "designerId": "application"
 }

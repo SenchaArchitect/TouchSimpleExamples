@@ -1,6 +1,7 @@
 {
     "name": "routes",
     "settings": {
+        "cmd": {},
         "urlPrefix": "http://localhost/",
         "spacesToIndent": 4,
         "exportPath": "",
@@ -14,45 +15,22 @@
         "instantiateStore": true,
         "saveOnDeploy": false,
         "appName": "MyApp",
-        "cssPath": ""
-    },
-    "xdsVersion": "2.2.0",
-    "xdsBuild": 840,
-    "schemaVersion": 1,
-    "upgradeVersion": 210000000499,
-    "framework": "touch21",
-    "topInstanceFileMap": {
-        "ba3530f9-d987-4e95-b9ab-feeb522494f4": {
-            "paths": [
-                "metadata/controller/ControllerWithAdvancedRoute",
-                "app/controller/override/ControllerWithAdvancedRoute.js",
-                "app/controller/ControllerWithAdvancedRoute.js"
-            ],
-            "className": "ControllerWithAdvancedRoute"
-        },
-        "ad3af552-e9cd-48b4-9a25-4527d0f555c9": {
-            "paths": [
-                "metadata/controller/ControllerWithSimpleRoute",
-                "app/controller/override/ControllerWithSimpleRoute.js",
-                "app/controller/ControllerWithSimpleRoute.js"
-            ],
-            "className": "ControllerWithSimpleRoute"
-        },
-        "7a5ac0d5-75f4-4f9e-83ac-b7a7f8e98f23": {
-            "paths": [
-                "metadata/view/MyContainer",
-                "app/view/override/MyContainer.js",
-                "app/view/MyContainer.js"
-            ],
-            "className": "MyContainer"
-        },
-        "760b8175-0630-4bbd-a828-389f20615561": {
-            "paths": [
-                "metadata/resource/Library"
-            ],
-            "className": "Library"
+        "cssPath": "",
+        "canvasControls": {
+            "viewportSize": {
+                "name": "iPhone",
+                "builtIn": true,
+                "height": 480,
+                "width": 320
+            },
+            "viewportOrientation": "portrait"
         }
     },
+    "xdsVersion": "3.0.0",
+    "xdsBuild": 0,
+    "schemaVersion": 1,
+    "upgradeVersion": 300000000001,
+    "framework": "touch23",
     "viewOrderMap": {
         "view": [
             "7a5ac0d5-75f4-4f9e-83ac-b7a7f8e98f23"

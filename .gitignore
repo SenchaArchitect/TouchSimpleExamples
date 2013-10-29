@@ -1,0 +1,11 @@
+.architect
+.sencha
+touch
+build.xml
+build
+.idea
+packager.json
+build.settings
+bootstrap.json
+bootstrap.js
+app.json

@@ -6,8 +6,8 @@
     },
     "codeClass": null,
     "userConfig": {
-        "designer|userClassName": "Step3Panel",
-        "designer|userAlias": "step3"
+        "designer|userAlias": "step3",
+        "designer|userClassName": "Step3Panel"
     },
     "designerId": "59837de6-d1e1-4301-abd7-e5769a45fd27",
     "cn": [
@@ -19,7 +19,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "MyFieldSet",
                 "title": "Choose an operation"
             },
             "designerId": "b58b2f89-d6a4-42de-8122-1b7abc0160c4",
@@ -32,11 +31,10 @@
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "designer|userClassName": "MyRadioButton",
+                        "checked": true,
                         "label": "Add",
                         "name": "operation",
-                        "value": "add",
-                        "checked": true
+                        "value": "add"
                     },
                     "designerId": "e61a6df2-634d-4464-8c06-6285d493350c"
                 },
@@ -48,7 +46,6 @@
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "designer|userClassName": "MyRadioButton1",
                         "label": "Subtract",
                         "name": "operation",
                         "value": "subtract"
@@ -63,7 +60,6 @@
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "designer|userClassName": "MyRadioButton2",
                         "label": "Multiply",
                         "name": "operation",
                         "value": "multiply"
@@ -78,7 +74,6 @@
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "designer|userClassName": "MyRadioButton3",
                         "label": "Divide",
                         "name": "operation",
                         "value": "divide"
@@ -95,9 +90,8 @@
             },
             "codeClass": null,
             "userConfig": {
-                "ui": "confirm",
-                "designer|userClassName": "MyButton",
-                "text": "Calculate!"
+                "text": "Calculate!",
+                "ui": "confirm"
             },
             "designerId": "5577410c-3796-43fe-9f3b-e0523e13025e"
         }
