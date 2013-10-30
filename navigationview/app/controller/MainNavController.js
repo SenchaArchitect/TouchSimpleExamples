@@ -16,6 +16,10 @@
 Ext.define('MyApp.controller.MainNavController', {
     extend: 'Ext.app.Controller',
 
+    requires: [
+        'Ext.MessageBox'
+    ],
+
     config: {
         control: {
             "step1 button": {
