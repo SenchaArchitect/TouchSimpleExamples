@@ -9,7 +9,10 @@
         "designer|initialView": true,
         "designer|userClassName": "Main",
         "layout": "vbox",
-        "padding": 20
+        "padding": 20,
+        "requires": [
+            "Ext.MessageBox"
+        ]
     },
     "designerId": "281e6308-e453-443c-ba4e-acb143a7dc36",
     "cn": [

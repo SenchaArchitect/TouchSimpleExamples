@@ -16,6 +16,10 @@
 Ext.define('MyApp.view.Main', {
     extend: 'Ext.Container',
 
+    requires: [
+        'Ext.MessageBox'
+    ],
+
     config: {
         padding: 20,
         layout: {
