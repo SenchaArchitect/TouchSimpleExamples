@@ -31,7 +31,7 @@ Ext.application({
 
     launch: function() {
 
-                Ext.create('MyApp.view.MyContainer', {fullscreen: true});
+        Ext.create('MyApp.view.MyContainer', {fullscreen: true});
     }
 
 });
